@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Cost Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <h1>Find the Best Delivery Service</h1>
+    <form id="deliveryForm">
+        <label for="tujuan_pengiriman">Tujuan Pengiriman:</label>
+        <input type="text" id="tujuan_pengiriman" name="tujuan_pengiriman" required>
+        <br>
+        <label for="kota">Kota:</label>
+        <input type="text" id="kota" name="kota" required>
+        <br>
+        <label for="length">Length (cm):</label>
+        <input type="number" id="length" name="length" required><br><br>
+
+        <label for="width">Width (cm):</label>
+        <input type="number" id="width" name="width" required><br><br>
+
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" name="height" required><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required><br><br>
+        <button type="button" onclick="tujuan()">Submit</button>
+    </form>
+    <div id="result"></div>
+    <script>
+
+        function tujuan() {
+            let length = $('#length').val();
+            let width = $('#width').val();
+            let height = $('#height').val();
+            let quantity = $('#quantity').val()
+            let lokasi_awal = $('#tujuan_pengiriman').val();
+            let lokasi_akhir = $('#kota').val();
+
+            $.ajax({
+                url: 'http://localhost:3000/shipping/cost',
+                type: 'GET',
+                data: {
+                    length: length,
+                    width: width,
+                    height: height,
+                    quantity: quantity,
+                    lokasi_awal: lokasi_awal,
+                    lokasi_akhir: lokasi_akhir
+                },
+                success: function (response) {
+                    console.log(response)
+                    $('#result').html(`
+          <h2>Best Delivery Service:</h2>
+          <h1>Perusahaan: ${response.companies.company.nama}</h1>
+          <p>Tujuan Pengiriman: ${response.terpilih[0].lokasi_awal.provinsi}</p>
+          <p>Kota: ${response.terpilih[0].lokasi_akhir.provinsi}</p>
+          <p>Biaya: ${response.terpilih[0].tarif_per_kg}</p>
+          <p>Min Berat: ${response.terpilih[0].min_weight_cover_kg}</p>
+          <p>Estimasi: ${response.terpilih[0].estimasi_waktu.estimasi_tercepat} - ${response.terpilih[0].estimasi_waktu.estimasi_terlambat} ${response.terpilih[0].estimasi_waktu.satuan_waktu} </p>
+          <p>Total Biaya: ${response.shippingCost}</p>
+          
+        `);
+                },
+                error: function (error) {
+                    console.error('Error:', error);
+                    $('#result').html('<p>An error occurred. Please try again.</p>');
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

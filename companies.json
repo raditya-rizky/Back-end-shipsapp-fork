@@ -1,0 +1,26 @@
+[
+  {
+    "nama": "Perusahaan A",
+    "tujuan": "Bali",
+    "kota": "Surabaya",
+    "biaya": 4500,
+    "min_berat": 50,
+    "estimasi": "2-5"
+  },
+  {
+    "nama": "Perusahaan B",
+    "tujuan": "Bandung",
+    "kota": "Surabaya",
+    "biaya": 28000,
+    "min_berat": 50,
+    "estimasi": "2-5"
+  },
+  {
+    "nama": "Perusahaan C",
+    "tujuan": "Bandung",
+    "kota": "Surabaya",
+    "biaya": 30000,
+    "min_berat": 10,
+    "estimasi": "2-5"
+  }
+]
