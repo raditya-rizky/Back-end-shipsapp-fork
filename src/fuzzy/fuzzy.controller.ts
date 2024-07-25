@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Post, Query } from '@nestjs/common';
-import { DeliveryService, ongkir  } from './fuzzy.service';
+import { DeliveryService, ongkir } from './fuzzy.service';
 
 @Controller('shipping')
 export class DeliveryController {
@@ -18,14 +18,19 @@ export class DeliveryController {
     const widthNum = parseFloat(width);
     const heightNum = parseFloat(height);
     const quantityNum = parseInt(quantity, 10);
-    const shippingCost = this.deliveryService.getShippingCost(lengthNum, widthNum, heightNum, quantityNum, criteria);
+    const shippingCost = this.deliveryService.getShippingCost(
+      lengthNum,
+      widthNum,
+      heightNum,
+      quantityNum,
+      criteria,
+    );
     const companies = this.deliveryService.selectDeliveryCompany(criteria)[0];
-    const terpilih = companies.company.list_pengiriman
+    const terpilih = companies.company.list_pengiriman;
     return {
       shippingCost,
       companies,
-      terpilih
+      terpilih,
     };
   }
-
 }
