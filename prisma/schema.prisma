@@ -1,0 +1,53 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  // directUrl = env("DIRECT_URL")
+}
+
+model Vendor {
+  id              String       @id @default(cuid())
+  nama            String
+  alamat          String
+  pic             String
+  no_telp         String
+  email           String
+  website         String?
+  pricelist_pdf   String?
+  list_pengiriman Pengiriman[]
+}
+
+enum SatuanEstimasiWaktu {
+  Jam
+  Hari
+  Minggu
+  Bulan
+  Tahun
+}
+
+model Pengiriman {
+  id                    String              @id @default(cuid())
+  provinsi_awal         String
+  provinsi_tujuan       String
+  kabupaten_awal        String
+  kabupaten_tujuan      String
+  kecamatan_awal        String
+  kecamatan_tujuan      String
+  min_charge            Int
+  price                 Int
+  satuan_estimasi_waktu SatuanEstimasiWaktu
+  estimasi_tercepat     Int
+  estimasi_terlama      Int
+  jarak_tempuh          String
+  Vendor                Vendor?             @relation(fields: [vendorId], references: [id])
+  vendorId              String?
+}
