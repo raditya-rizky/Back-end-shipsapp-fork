@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import axios from 'axios';
+import { PrismaService } from 'src/prisma.service';
 
 @Injectable()
 export class ongkir {
@@ -59,20 +60,24 @@ export class DeliveryService {
   private companies: any[];
   private readonly weight = 0.4;
 
-  constructor() {
-    this.companies = [];
+  constructor(private prisma: PrismaService) {
+    this.initialize();
   }
 
-  async fetchCompanies(): Promise<void> {
+  private async initialize() {
     try {
-      const response = await axios.get(
-        'http://localhost:1337/api/vendors?populate=deep',
-      );
-      this.companies = response.data.data;
+      const vendors = await this.prisma.vendor.findMany({
+        include: {
+          list_pengiriman: true,
+        },
+      });
+      this.companies = vendors; // Assign the retrieved data to the companies property
+       // Log the companies property
     } catch (error) {
-      console.error('Error fetching companies:', error);
+      console.error('Error fetching vendors:', error);
     }
   }
+ 
 
   selectDeliveryCompany(criteria: any): any {
     // Filter perusahaan berdasarkan kriteria
@@ -80,10 +85,10 @@ export class DeliveryService {
       .map((company) => {
         const matchingShipments = company.list_pengiriman.filter(
           (shipment) =>
-            shipment.lokasi_awal.provinsi.trim() ===
-              criteria.lokasi_awal.trim() &&
-            shipment.lokasi_akhir.provinsi.trim() ===
-              criteria.lokasi_akhir.trim(),
+            shipment.provinsi_awal ===
+              criteria.lokasi_awal &&
+              shipment.provinsi_tujuan ===
+                criteria.lokasi_akhir,
         );
         if (matchingShipments.length > 0) {
           return {
@@ -98,28 +103,28 @@ export class DeliveryService {
     if (filteredCompanies.length === 0) {
       return null;
     }
-
+    
     const scoredCompanies = filteredCompanies.map((company) => {
       const minTarifPerKg = Math.min(
-        ...company.list_pengiriman.map((shipment) => shipment.tarif_per_kg),
+        ...company.list_pengiriman.map((shipment) => shipment.price),
       );
       const estimasi_tercepat = company.list_pengiriman.map(
-        (shipment) => shipment.estimasi_waktu.estimasi_tercepat,
+        (shipment) => shipment.estimasi_tercepat,
       );
       const waktu = company.list_pengiriman.map(
-        (shipment) => shipment.estimasi_waktu.satuan_waktu,
+        (shipment) => shipment.satuan_estimasi_waktu,
       );
+      
       let time;
-      if (waktu == 'jam') {
+      if (waktu == 'jam' || waktu == 'Jam') {
         time = [estimasi_tercepat];
-      } else if (waktu == 'hari') {
+      } else if (waktu == 'hari' || waktu == 'Hari') {
         time = [estimasi_tercepat * 24];
-      } else if (waktu == 'bulan') {
+      } else if (waktu == 'bulan' || waktu == 'Bulan') {
         time = [estimasi_tercepat * 30 * 24];
-      } else if (waktu == 'tahun') {
+      } else if (waktu == 'tahun' || waktu == 'Tahun') {
         time = [estimasi_tercepat * 365 * 24];
       }
-
       const totalHoursArray = time;
       const minTotalHours = Math.min(...totalHoursArray);
       const score = this.calculateScore(minTotalHours, minTarifPerKg);
@@ -249,7 +254,7 @@ export class DeliveryService {
       const selectedCompany =
         this.selectDeliveryCompany(criteria)[0].company.list_pengiriman;
       if (selectedCompany) {
-        const tarifPerKg = selectedCompany[0].tarif_per_kg;
+        const tarifPerKg = selectedCompany[0].price;
         const shippingCost = roundedWeight * tarifPerKg;
         return this.formatCurrency(shippingCost); // Return the numeric value directly
       } else {

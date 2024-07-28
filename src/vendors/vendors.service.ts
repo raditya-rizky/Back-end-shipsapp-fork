@@ -8,7 +8,17 @@ export class VendorsService {
   constructor(private prisma: PrismaService) {}
 
   create(createVendorDto: CreateVendorDto) {
-    return 'This action adds a new vendor';
+     return this.prisma.vendor.create({
+      data: {
+        nama: createVendorDto.nama,
+        alamat: createVendorDto.alamat,
+        pic: createVendorDto.pic,
+        no_telp: createVendorDto.no_telp,
+        email: createVendorDto.email,
+        website: createVendorDto.website,
+        pricelist_pdf: createVendorDto.pricelist_pdf,
+      },
+    });
   }
 
   findAll() {

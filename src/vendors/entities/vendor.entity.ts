@@ -1,5 +1,3 @@
-import { Pengiriman } from 'src/pengiriman/entities/pengiriman.entity';
-
 export class Vendor {
   id: number;
   nama: string;
@@ -9,5 +7,4 @@ export class Vendor {
   email: string;
   website: string;
   pricelist_pdf: string;
-  pengiriman: Pengiriman[];
 }

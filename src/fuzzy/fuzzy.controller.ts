@@ -13,7 +13,6 @@ export class DeliveryController {
     @Query('quantity') quantity: string,
     @Query() criteria: any,
   ): Promise<any> {
-    await this.deliveryService.fetchCompanies();
     const lengthNum = parseFloat(length);
     const widthNum = parseFloat(width);
     const heightNum = parseFloat(height);

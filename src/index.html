@@ -30,6 +30,18 @@
         <input type="number" id="quantity" name="quantity" required><br><br>
         <button type="button" onclick="tujuan()">Submit</button>
     </form>
+
+    <form id="vendors">
+        <input type="text" name="nama" id="nama" placeholder="Nama" required />
+        <input type="text" name="alamat" id="alamat" placeholder="Alamat" required />
+        <input type="text" name="pic" id="pic" placeholder="PIC" required />
+        <input type="text" name="no_telp" id="no_telp" placeholder="No Telp" required />
+        <input type="email" name="email" id="email" placeholder="Email" required />
+        <input type="text" name="website" id="website" placeholder="Website" />
+        <input type="file" name="pricelist_pdf" id="pricelist_pdf" placeholder="Pricelist PDF" />
+        <button type="button" onclick="vendors()">Submit</button>
+      </form>
+      
     <div id="result"></div>
     <script>
 
@@ -53,15 +65,14 @@
                     lokasi_akhir: lokasi_akhir
                 },
                 success: function (response) {
-                    console.log(response)
                     $('#result').html(`
           <h2>Best Delivery Service:</h2>
           <h1>Perusahaan: ${response.companies.company.nama}</h1>
-          <p>Tujuan Pengiriman: ${response.terpilih[0].lokasi_awal.provinsi}</p>
-          <p>Kota: ${response.terpilih[0].lokasi_akhir.provinsi}</p>
-          <p>Biaya: ${response.terpilih[0].tarif_per_kg}</p>
-          <p>Min Berat: ${response.terpilih[0].min_weight_cover_kg}</p>
-          <p>Estimasi: ${response.terpilih[0].estimasi_waktu.estimasi_tercepat} - ${response.terpilih[0].estimasi_waktu.estimasi_terlambat} ${response.terpilih[0].estimasi_waktu.satuan_waktu} </p>
+          <p>Tujuan Pengiriman: ${response.terpilih[0].provinsi_awal}</p>
+          <p>Kota: ${response.terpilih[0].provinsi_tujuan}</p>
+          <p>Biaya: ${response.terpilih[0].price}</p>
+          <p>Min Berat: ${response.terpilih[0].min_charge}</p>
+          <p>Estimasi: ${response.terpilih[0].estimasi_tercepat} - ${response.terpilih[0].estimasi_terlama} ${response.terpilih[0].satuan_estimasi_waktu} </p>
           <p>Total Biaya: ${response.shippingCost}</p>
           
         `);
@@ -70,6 +81,36 @@
                     console.error('Error:', error);
                     $('#result').html('<p>An error occurred. Please try again.</p>');
                 }
+            });
+        }
+
+        function vendors() {
+            let nama = $('#nama').val();
+            let alamat = $('#alamat').val();
+            let pic = $('#pic').val();
+            let no_telp = $('#no_telp').val()
+            let email = $('#email').val();
+            let website = $('#website').val();
+            let pricelist_pdf = $('#pricelist_pdf').val();
+
+            $.ajax({
+                url: 'http://localhost:3000/vendors',
+                type: 'POST',
+                data: {
+                    nama: nama,
+                    alamat: alamat,
+                    pic: pic,
+                    no_telp: no_telp,
+                    email: email,
+                    website: website,
+                    pricelist_pdf: pricelist_pdf
+                },
+                success: function (response) {
+                   if(response){
+                    window.location.reload()
+                   }
+                },
+               
             });
         }
     </script>
