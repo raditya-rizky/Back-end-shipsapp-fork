@@ -1,4 +1,4 @@
-import { PartialType } from '@nestjs/mapped-types';
-import { CreateVendorDto } from './create-vendor.dto';
+import { createZodDto } from '@wahyubucil/nestjs-zod-openapi'
+import { CreateVendor } from './create-vendor.dto';
 
-export class UpdateVendorDto extends PartialType(CreateVendorDto) {}
+export class UpdateVendorDto extends createZodDto(CreateVendor) {}
