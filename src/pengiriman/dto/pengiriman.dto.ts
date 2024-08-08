@@ -17,4 +17,7 @@ export const pengiriman = z.object({
   satuan_estimasi_waktu: z.string(),
   estimasi_tercepat: z.number(),
   estimasi_terlama: z.number(),
-})
+}).openapi('Pengiriman')
+
+export class GetPengirimanDto extends createZodDto(z.array(pengiriman)) {}
+export class GetOnePengirimanDto extends createZodDto(pengiriman) {}
