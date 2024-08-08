@@ -4,7 +4,7 @@ import { z } from 'zod'
 
 export const pengiriman = z.object({
   id: z.string().cuid(),
-  vendorId: z.number(),
+  vendorId: z.string().cuid(),
   provinsi_awal: z.string(),
   kabupaten_awal: z.string(),
   kecamatan_awal: z.string(),
