@@ -7,8 +7,8 @@ import { PrismaService } from 'src/prisma.service';
 export class VendorsService {
   constructor(private prisma: PrismaService) {}
 
-  create(createVendorDto: CreateVendorDto) {
-     return this.prisma.vendor.create({
+  async create(createVendorDto: CreateVendorDto) {
+    const data = await this.prisma.vendor.create({
       data: {
         nama: createVendorDto.nama,
         alamat: createVendorDto.alamat,
@@ -19,6 +19,12 @@ export class VendorsService {
         pricelist_pdf: createVendorDto.pricelist_pdf,
       },
     });
+
+    return {
+      status: 'success',
+      code: '201',
+      data,
+    };
   }
 
   findAll() {
@@ -29,15 +35,41 @@ export class VendorsService {
     });
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} vendor`;
+  findOne(id: string) {
+    return this.prisma.vendor.findUnique({
+      where: {
+        id,
+      },
+      include: {
+        list_pengiriman: true,
+      },
+    });
   }
 
-  update(id: number, updateVendorDto: UpdateVendorDto) {
-    return `This action updates a #${id} vendor`;
+  async update(id: string, updateVendorDto: UpdateVendorDto) {
+    const data = await this.prisma.vendor.update({
+      data: updateVendorDto,
+      where: {
+        id,
+      },
+    });
+
+    return {
+      status: 'success',
+      code: '200',
+      data,
+    };
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} vendor`;
+  async remove(id: string) {
+    return this.prisma.vendor
+      .delete({
+        where: { id },
+      })
+      .then((data) => ({
+        status: 'success',
+        code: '200',
+        id: data.id
+      }));
   }
 }

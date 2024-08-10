@@ -8,10 +8,17 @@ import {
   Delete,
 } from '@nestjs/common';
 import { VendorsService } from './vendors.service';
-import { CreateVendorDto } from './dto/create-vendor.dto';
-import { UpdateVendorDto } from './dto/update-vendor.dto';
+import {
+  CreateVendorDto,
+  CreateVendorResponseDto,
+} from './dto/create-vendor.dto';
+import {
+  UpdateVendorDto,
+  UpdateVendorResponseDto,
+} from './dto/update-vendor.dto';
 import { ApiOkResponse, ApiTags } from '@nestjs/swagger';
-import { GetVendorDto } from './dto/vendor.dto';
+import { GetOneVendorDto, GetVendorDto } from './dto/vendor.dto';
+import { DeleteVendorResponseDto } from './dto/delete-vendor.dto';
 
 @ApiTags('Vendor')
 @Controller('vendors')
@@ -19,28 +26,42 @@ export class VendorsController {
   constructor(private readonly vendorsService: VendorsService) {}
 
   @Post()
-  create(@Body() createVendorDto: CreateVendorDto) {
-    return this.vendorsService.create(createVendorDto);
+  @ApiOkResponse({ type: CreateVendorResponseDto })
+  async create(@Body() createVendorDto: CreateVendorDto) {
+    const vendor = await this.vendorsService.create(createVendorDto);
+    return CreateVendorResponseDto.zodSchema.parse(vendor);
   }
 
   @Get()
   @ApiOkResponse({ type: GetVendorDto })
-  findAll() {
-    return this.vendorsService.findAll();
+  async findAll() {
+    return GetVendorDto.zodSchema.parse(await this.vendorsService.findAll());
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.vendorsService.findOne(+id);
+  @ApiOkResponse({ type: GetOneVendorDto })
+  async findOne(@Param('id') id: string) {
+    return GetOneVendorDto.zodSchema.parse(
+      await this.vendorsService.findOne(id),
+    );
   }
 
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateVendorDto: UpdateVendorDto) {
-    return this.vendorsService.update(+id, updateVendorDto);
+  @ApiOkResponse({ type: UpdateVendorResponseDto })
+  async update(
+    @Param('id') id: string,
+    @Body() updateVendorDto: UpdateVendorDto,
+  ) {
+    return UpdateVendorResponseDto.zodSchema.parse(
+      await this.vendorsService.update(id, updateVendorDto),
+    );
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.vendorsService.remove(+id);
+  @ApiOkResponse({ type: DeleteVendorResponseDto })
+  async remove(@Param('id') id: string) {
+    return DeleteVendorResponseDto.zodSchema.parse(
+      await this.vendorsService.remove(id),
+    );
   }
 }

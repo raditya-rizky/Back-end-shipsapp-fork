@@ -4,7 +4,7 @@ import { z } from 'zod'
 
 export const pengiriman = z.object({
   id: z.string().cuid(),
-  vendorId: z.number(),
+  vendorId: z.string().cuid(),
   provinsi_awal: z.string(),
   kabupaten_awal: z.string(),
   kecamatan_awal: z.string(),
@@ -17,4 +17,7 @@ export const pengiriman = z.object({
   satuan_estimasi_waktu: z.string(),
   estimasi_tercepat: z.number(),
   estimasi_terlama: z.number(),
-})
+}).openapi('Pengiriman')
+
+export class GetPengirimanDto extends createZodDto(z.array(pengiriman)) {}
+export class GetOnePengirimanDto extends createZodDto(pengiriman) {}
