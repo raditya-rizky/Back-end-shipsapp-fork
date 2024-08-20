@@ -4,7 +4,7 @@ import { ZodValidationPipe } from '@wahyubucil/nestjs-zod-openapi';
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { DeliveryService, ongkir } from './fuzzy/fuzzy.service';
+import { DeliveryService } from './fuzzy/fuzzy.service';
 import { DeliveryController } from './fuzzy/fuzzy.controller';
 import { VendorsModule } from './vendors/vendors.module';
 import { PengirimanModule } from './pengiriman/pengiriman.module';
@@ -15,7 +15,6 @@ import { PrismaModule } from './prisma.module';
   controllers: [AppController, DeliveryController],
   providers: [
     AppService,
-    ongkir,
     DeliveryService,
     {
       provide: APP_PIPE,

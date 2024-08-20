@@ -1,0 +1,3903 @@
+[
+    {
+        "platform_id": "D0001",
+        "platform_name": "PT. TURANGGA JAYA MANDIRI",
+        "app_url": "http://www.truckingtjm.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/9accaedd-aeaa-4f92-be90-f1d20a7dcce1.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/9accaedd-aeaa-4f92-be90-f1d20a7dcce1.jpg",
+        "company_name": "PT. TURANGGA JAYA MANDIRI",
+        "company_address": "TAMAN PAULAN INDAH NO.12 RT.001 RW.009, PAULAN , COLOMADU, KARANGANYAR",
+        "company_email": "azistjm764@gmail.com",
+        "company_no_telfon": "02486579397",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0001",
+            "description": null,
+            "slug": "pt-turangga-jaya-mandiri",
+            "tag": "pt-turangga-jaya-mandiri",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0001",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0002",
+        "platform_name": "PT. JASINDO TRANS SAMUDERA",
+        "app_url": null,
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/36e3a216-b630-4409-a2eb-09224dc38955.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/36e3a216-b630-4409-a2eb-09224dc38955.jpg",
+        "company_name": "PT.JASINDO TRANS SAMUDERA",
+        "company_address": "TAMAN PAULAN INDAH NO.12 RT.001 RW.009, PAULAN , COLOMADU, KARANGANYAR",
+        "company_email": "wiwik@jasindotranssamudera.com",
+        "company_no_telfon": "0271 7685679/ 0271 7685830",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0002",
+            "description": null,
+            "slug": "pt-jasindo-trans-samudera",
+            "tag": "pt-jasindo-trans-samudera",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0002",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0003",
+        "platform_name": "PT. TJORAULENG MAEGA BERKAH",
+        "app_url": "http://tjoraulengmaegaberkah.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/4be4ca9a-3cef-497f-93a0-6ad05221d310.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/4be4ca9a-3cef-497f-93a0-6ad05221d310.png",
+        "company_name": "PT. TJORAULENG MAEGA BERKAH",
+        "company_address": "Jalan Hatta No. 5 Pelabuhan Makassar",
+        "company_email": "wiwik@jasindotranssamudera.com",
+        "company_no_telfon": "081287821878",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0003",
+            "description": null,
+            "slug": "pt-tjorauleng-maega-berkah",
+            "tag": "pt-tjorauleng-maega-berkah",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0003",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0004",
+        "platform_name": "PT. DHANA PERSADA MANUNGGAL",
+        "app_url": "https://dpm-logistics.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/aac0aaaa-5783-4f36-b9df-265ae106a7bc.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/aac0aaaa-5783-4f36-b9df-265ae106a7bc.png",
+        "company_name": "PT. DHANA PERSADA MANUNGGAL",
+        "company_address": "JL. Lingkar Tanjung Mas A-3 Semarang",
+        "company_email": "antok@dpm-logistics.com",
+        "company_no_telfon": "0243589090",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0004",
+            "description": null,
+            "slug": "pt-dhana-persada-manunggal",
+            "tag": "pt-dhana-persada-manunggal",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0004",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0004",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0004",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0004",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0005",
+        "platform_name": "PT MITRA INTERTRANS FORWARDING",
+        "app_url": "http://www.mif.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/388c23ce-5a27-4efb-82e5-7ffd228c8b2b.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/388c23ce-5a27-4efb-82e5-7ffd228c8b2b.png",
+        "company_name": "PT MITRA INTERTRANS FORWARDING",
+        "company_address": "JL. YOS SUDARSO NO 13 Talise Palu",
+        "company_email": "15.0405514@meratusline.com",
+        "company_no_telfon": "082291248627",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0005",
+            "description": null,
+            "slug": "pt-mitra-intertrans-forwarding",
+            "tag": "pt-mitra-intertrans-forwarding",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0005",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0005",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0005",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            },
+            {
+                "id": {
+                    "platformId": "D0005",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0007",
+        "platform_name": "PT. Internasional Fortuna Ekspresindo",
+        "app_url": "http://www.ifesrg.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/70e01b89-3a1b-4902-af6b-0f696e35061e.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/70e01b89-3a1b-4902-af6b-0f696e35061e.jpg",
+        "company_name": "PT. Internasional Fortuna Ekspresindo",
+        "company_address": "Perum Semarang Indah Blok C/X/3, Jl. Madukoro, Semarang 50144",
+        "company_email": "ifesrg@gmail.com",
+        "company_no_telfon": "024 7612756",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0007",
+            "description": null,
+            "slug": "pt-Internasional-fortuna-ekspresindo",
+            "tag": "pt-Internasional-fortuna-ekspresindo",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0007",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0007",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0007",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0009",
+        "platform_name": "PT. Mulyareksa Jayasakti",
+        "app_url": "https://mulyareksa.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/0af512a2-595f-4de3-85e2-8e79eff4a855.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/0af512a2-595f-4de3-85e2-8e79eff4a855.jpg",
+        "company_name": "PT. Mulyareksa Jayasakti",
+        "company_address": "JL. Selomas Raya Ruko 6D semarang",
+        "company_email": "mrjs.operasional@gmail.com",
+        "company_no_telfon": "(62-24) 3565982",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0009",
+            "description": null,
+            "slug": "pt-mulyareksa-jayasakti",
+            "tag": "pt-mulyareksa-jayasakti",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0009",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0009",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0009",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0011",
+        "platform_name": "PT. BAJAKORA TRANSPORTINDO",
+        "app_url": "http://www.bajakora.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/08183d79-f964-407e-ae25-ec24bf8b210f.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/08183d79-f964-407e-ae25-ec24bf8b210f.jpg",
+        "company_name": "PT. BAJAKORA TRANSPORTINDO",
+        "company_address": "JL. SERMAR USMAN JANATIN NO. 14 / V SEMARANG",
+        "company_email": "bajakora@gmail.com",
+        "company_no_telfon": "62-24-3551814 / 62-24-3517194",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0011",
+            "description": null,
+            "slug": "pt-bajakora-transportindo",
+            "tag": "pt-bajakora-transportindo",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0011",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0011",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0011",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0012",
+        "platform_name": "PT Berkat Sarana Makmur",
+        "app_url": "http://www.bsmgroup.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/d6513bc0-45b9-4b59-8ec6-1918ef5a3806.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/d6513bc0-45b9-4b59-8ec6-1918ef5a3806.png",
+        "company_name": "PT Berkat Sarana Makmur",
+        "company_address": "Beruang Mas Residence D4-4, Jalan Beruang Raya",
+        "company_email": "office@bsmgroup.co.id",
+        "company_no_telfon": "6024-6701900",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0012",
+            "description": null,
+            "slug": "pt-berkat-sarana-makmur",
+            "tag": "pt-berkat-sarana-makmur",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0012",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0012",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0012",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0013",
+        "platform_name": "PT. RAMAJAYA LOGISTIK INDONESIA",
+        "app_url": "http://www.ramagroup.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/1a5aa543-55be-4500-a336-2d46442e704d.jpeg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/1a5aa543-55be-4500-a336-2d46442e704d.jpeg",
+        "company_name": "PT. RAMAJAYA LOGISTIK INDONESIA",
+        "company_address": "JL. LAMONGAN RAYA NO. 27-28",
+        "company_email": "solichin@ramagroup.co.id",
+        "company_no_telfon": "02476420878",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0013",
+            "description": null,
+            "slug": "pt-ramajaya-logistik-indonesia",
+            "tag": "pt-ramajaya-logistik-indonesia",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0013",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0013",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0013",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0015",
+        "platform_name": "PT. TRANSWORLD LOGISTICS INTERNASIONAL",
+        "app_url": "https://transworld-logistics-internasional.co.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/6ddcbd89-6827-4e5d-a060-938e7e72cb88.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/6ddcbd89-6827-4e5d-a060-938e7e72cb88.jpg",
+        "company_name": "PT. TRANSWORLD LOGISTICS INTERNASIONAL",
+        "company_address": "JL. TIPAR CAKUNG RAYA NO.39 A RT.003/001 SUKAPURA, CILINCING, JAKARTA UTARA",
+        "company_email": "document.tli@cbn.net.id",
+        "company_no_telfon": "021-4404472",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0015",
+            "description": null,
+            "slug": "pt-transworld-logistics-internasional",
+            "tag": "pt-transworld-logistics-internasional",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0015",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0015",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0015",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0016",
+        "platform_name": "PT TOTAL KARGO LOGISTIK SOLUSI",
+        "app_url": "https://www.totalcls.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/3269e995-6530-4ce3-9e46-df22ad64e3a6.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/3269e995-6530-4ce3-9e46-df22ad64e3a6.png",
+        "company_name": "PT TOTAL KARGO LOGISTIK SOLUSI",
+        "company_address": "Jl puspogiwang 1 no 18",
+        "company_email": "ratnawati@totalcls.com",
+        "company_no_telfon": "02476332783",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0016",
+            "description": null,
+            "slug": "pt-total-kargo-logistik-solusi",
+            "tag": "pt-total-kargo-logistik-solusi",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0016",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0016",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0016",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0017",
+        "platform_name": "CV Ayudia Arza Mandiri",
+        "app_url": "https://www.ayudia.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/90e2652d-5bee-4366-bb86-20ac90c1daa0.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/90e2652d-5bee-4366-bb86-20ac90c1daa0.jpg",
+        "company_name": "CV Ayudia Arza Mandiri",
+        "company_address": "Gawok RT.001 RW.001, Geneng, Gatak, Sukoharjo, Jawa Tengah - 57557",
+        "company_email": "admin@ayudia.co.id",
+        "company_no_telfon": "0271-3401023",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0017",
+            "description": null,
+            "slug": "cv-ayudia-arza-mandiri",
+            "tag": "cv-ayudia-arza-mandiri",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0017",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0017",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0017",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0017",
+                    "categoryserviceId": 12
+                },
+                "categoryservice_label": "Perusahaan Jasa Titipan PJT (Domestik & Internasional)"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0019",
+        "platform_name": "PT. Bumi Lestari Logistics",
+        "app_url": "https://www.bumilestari.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/d42c2f21-e8b0-4fe5-acd8-492d1ee500e3.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/d42c2f21-e8b0-4fe5-acd8-492d1ee500e3.jpg",
+        "company_name": "PT. Bumi Lestari Logistics",
+        "company_address": "Bukit Permata Puri Jl. Bukit Wato wato III Blok BXII No. 20 Ngaliyan Semarang 50189",
+        "company_email": "eko.bumilestari@gmail.com",
+        "company_no_telfon": "024 76670942",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0019",
+            "description": null,
+            "slug": "pt-bumi-lestari-logistics",
+            "tag": "pt-bumi-lestari-logistics",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0019",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0019",
+                    "categoryserviceId": 12
+                },
+                "categoryservice_label": "Perusahaan Jasa Titipan PJT (Domestik & Internasional)"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0021",
+        "platform_name": "PT. LINTAS DEWATA CARGO",
+        "app_url": "https://www.lintasdewatacargo.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/e65dfda1-9bc9-471e-982c-3770c30d779e.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/e65dfda1-9bc9-471e-982c-3770c30d779e.png",
+        "company_name": "PT. LINTAS DEWATA CARGO",
+        "company_address": "JL. Perintis Kemerdekaan KM 20 No.288, Bulu Tanae, Marumpa, Kec. Marusu, Kab. Maros, Sulawesi Selatan 90552",
+        "company_email": "buyung@lintasdewatacargo.com",
+        "company_no_telfon": "+62 411 4836117",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0021",
+            "description": null,
+            "slug": "pt-lintas-dewata-cargo",
+            "tag": "pt-lintas-dewata-cargo",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0021",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0021",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0021",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0021",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0021",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0022",
+        "platform_name": "PT AGUNG PANCAR MULIA",
+        "app_url": "https://www.apmcargo.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/f89f4172-753d-4acd-bf6f-48f47f446e5f.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/f89f4172-753d-4acd-bf6f-48f47f446e5f.png",
+        "company_name": "PT AGUNG PANCAR MULIA",
+        "company_address": "JL. BALI NO.15, MAKASSAR",
+        "company_email": "apmcargo@apmcargo.id",
+        "company_no_telfon": "04113622586",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0022",
+            "description": null,
+            "slug": "pt-agung-pancar-mulia",
+            "tag": "pt-agung-pancar-mulia",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0022",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0022",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0022",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0022",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0024",
+        "platform_name": "PT. MONANG SIANIPAR ABADI",
+        "app_url": "https://www.msakargo.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/96a31a4f-4866-4ae3-943a-c5e2ee57d751.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/96a31a4f-4866-4ae3-943a-c5e2ee57d751.png",
+        "company_name": "PT. MONANG SIANIPAR ABADI",
+        "company_address": "KAWASAN INDUSTRI CIPTA BLOG 9 JALAN ARTERI TANJUNG EMAS SEMARANG",
+        "company_email": "amin@msakargo.co.id",
+        "company_no_telfon": "0243566800",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0024",
+            "description": null,
+            "slug": "pt-monang-sianipar-abadi",
+            "tag": "pt-monang-sianipar-abadi",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0024",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            },
+            {
+                "id": {
+                    "platformId": "D0024",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0024",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0024",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0024",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0024",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0025",
+        "platform_name": "PT. Dwimitra Usaha Sejahtera",
+        "app_url": "https://www.duslogistics.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/c24d2cfb-92bd-4828-a546-ec2ff0ac5b99.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/c24d2cfb-92bd-4828-a546-ec2ff0ac5b99.jpg",
+        "company_name": "PT. Dwimitra Usaha Sejahtera",
+        "company_address": "Ruko Grand Mall Bekasi, Jl Raya Jend. Sudirman, Blok C No. 5 Kota Bekasi, 17143 ",
+        "company_email": "jhonson@duslogistics.co.id",
+        "company_no_telfon": "021-89457846 ",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0025",
+            "description": null,
+            "slug": "pt-dwimitra-usaha-sejahtera",
+            "tag": "pt-dwimitra-usaha-sejahtera",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0025",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0025",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0025",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0025",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0026",
+        "platform_name": "PT Lintas Maju Jaya",
+        "app_url": "https://www.linkedin.com/in/pt-lintas-maju-jaya-ba5190b6/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/eeaaf50a-0af3-4d3f-b650-060a67e87c15.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/eeaaf50a-0af3-4d3f-b650-060a67e87c15.jpg",
+        "company_name": "PT Lintas Maju Jaya",
+        "company_address": "Anjasmoro Raya 60 B, Karangayu, Semarang Barat, Jawa Tengah, Indonesia",
+        "company_email": "lmj_smg@yahoo.co.id",
+        "company_no_telfon": "081 575 39 1961",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0026",
+            "description": null,
+            "slug": "pt-lintas-maju-jaya",
+            "tag": "pt-lintas-maju-jaya",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0026",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0026",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0026",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0026",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0027",
+        "platform_name": "PT. Asia Grow Logistics",
+        "app_url": "https://www.asiagrow.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/47c73070-88c3-4c45-b7e6-d262d67bee47.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/47c73070-88c3-4c45-b7e6-d262d67bee47.jpg",
+        "company_name": "PT. Asia Grow Logistics",
+        "company_address": "Komplek Perkantoran Semarang Indah Blok E No.38, Jl. Madukoro Raya, Tawangmas, Semarang 50144, Jawa Tengah, Indonesia",
+        "company_email": "hendro@asiagrow.com",
+        "company_no_telfon": "+622476632980 / +622476632981",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0027",
+            "description": null,
+            "slug": "pt-asia-grow-logistics",
+            "tag": "pt-asia-grow-logistics",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0027",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0027",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0027",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0027",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0028",
+        "platform_name": "PT. Agility International",
+        "app_url": "https://www.agility.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/a549149e-cb5d-4106-8dd5-61c36b77def3.jfif",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/a549149e-cb5d-4106-8dd5-61c36b77def3.jfif",
+        "company_name": "PT Agility International",
+        "company_address": "Secure Building, Building C, \r\nJl Protokol Halim Perdana kusuma, Jakarta Timur 13610",
+        "company_email": "aarif@agility.com",
+        "company_no_telfon": "021 2852 9000",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0028",
+            "description": null,
+            "slug": "pt-agility-international",
+            "tag": "pt-agility-international",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0028",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            },
+            {
+                "id": {
+                    "platformId": "D0028",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0028",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0029",
+        "platform_name": "PT. INDRA JAYA SWASTIKA ",
+        "app_url": "https://www.ijs.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/4febc303-4ff9-448e-9084-0585b1727bc3.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/4febc303-4ff9-448e-9084-0585b1727bc3.jpg",
+        "company_name": "PT. INDRA JAYA SWASTIKA ",
+        "company_address": "Jalan Kawasan Cipta Kav.23 Arteri Yos Sudarso, Semarang Utara - 50175, Jawa Tengah",
+        "company_email": "submkt@ijs.co.id",
+        "company_no_telfon": "02486579438 Ext-3405 , 02486579439",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0029",
+            "description": null,
+            "slug": "pt-indra-jaya-swastika",
+            "tag": "pt-indra-jaya-swastika",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0029",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0029",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0029",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0029",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0030",
+        "platform_name": "PT. Ikrar Bersama Mandiri",
+        "app_url": "https://www.ikrarbersamamandiri.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/b077b3e3-8656-4601-b8b3-5fbe1519f195.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/b077b3e3-8656-4601-b8b3-5fbe1519f195.jpg",
+        "company_name": "PT. Ikrar Bersama Mandiri",
+        "company_address": "Perkantoran enggano Megah Blok 5U Tanjung Priok, Jakarta Utara - 14310",
+        "company_email": "admin.plb10@ikrarbersamamandiri.co.id",
+        "company_no_telfon": "(62-21)43906747",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0030",
+            "description": null,
+            "slug": "pt-ikrar-bersama-mandiri",
+            "tag": "pt-ikrar-bersama-mandiri",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0030",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0030",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0030",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0033",
+        "platform_name": "PT. SAMUDERA BAHANA",
+        "app_url": "https://www.samudera-bahana.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/0cf8223b-9654-4ff9-bddf-c6c39343df58.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/0cf8223b-9654-4ff9-bddf-c6c39343df58.jpg",
+        "company_name": "PT. SAMUDERA BAHANA",
+        "company_address": "KOMP. RUKO CILEGON HIGHWAY BLOK B.12 - JLN RAYA AKSES TOLL CILEGON TIMUR",
+        "company_email": "erzamkalk@gmail.com",
+        "company_no_telfon": "(0254) 7870579 - 7870168",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0033",
+            "description": null,
+            "slug": "pt-samudera-bahana",
+            "tag": "pt-samudera-bahana",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0033",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0033",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0033",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0034",
+        "platform_name": "PT CIPTA SEJAHTERA LOGISTIK",
+        "app_url": null,
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/0fbaff56-d045-4d13-b4ea-a0b1a3960fe2.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/0fbaff56-d045-4d13-b4ea-a0b1a3960fe2.jpg",
+        "company_name": "PT CIPTA SEJAHTERA LOGISTIK",
+        "company_address": "JL. SUPROBO 1F/31, PLOMBOKAN, SEMARANG UTARA, KOTA SEMARANG - 50171",
+        "company_email": "info@cslogistik.co.id",
+        "company_no_telfon": "02486400808",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0034",
+            "description": null,
+            "slug": "pt-cipta-sejahtera-logistik",
+            "tag": "pt-cipta-sejahtera-logistik",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0034",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0034",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0034",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0034",
+                    "categoryserviceId": 14
+                },
+                "categoryservice_label": "Kereta Api Cargo (KAI Logistik)"
+            },
+            {
+                "id": {
+                    "platformId": "D0034",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0034",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0034",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0034",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0035",
+        "platform_name": "PT. Ritra Cargo Indonesia",
+        "app_url": "https://www.ritra.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/11b4a832-612d-42b1-ae5c-f6b08f04e453.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/11b4a832-612d-42b1-ae5c-f6b08f04e453.png",
+        "company_name": "PT. Ritra Cargo Indonesia",
+        "company_address": "Jl. Ir. Sutami No. 1 Makassar",
+        "company_email": "rcimks.airfreight@ritra.com",
+        "company_no_telfon": "624114660580",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0035",
+            "description": null,
+            "slug": "pt-ritra-cargo-indonesia",
+            "tag": "pt-ritra-cargo-indonesia",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0035",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0035",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0035",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0035",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            },
+            {
+                "id": {
+                    "platformId": "D0035",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0035",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0035",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0036",
+        "platform_name": "PT. Monang Sianipar Abadi",
+        "app_url": "https://www.msakargo.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/4d8fd5bd-1904-4f62-85e2-0b8836219118.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/4d8fd5bd-1904-4f62-85e2-0b8836219118.jpg",
+        "company_name": "PT.Monang Sianipar Abadi",
+        "company_address": "JL. A.p. Pettarani No.76 Makassar",
+        "company_email": "rusdianto@msakargo.co.id",
+        "company_no_telfon": "085241816901",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0036",
+            "description": null,
+            "slug": "pt-monang-sianipar-abadi",
+            "tag": "pt-monang-sianipar-abadi",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0036",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0036",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0036",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0036",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0036",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0036",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0037",
+        "platform_name": "PT ANGKASA PURA LOGISTIK",
+        "app_url": "https://www.aplog.co/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/32fcd339-363a-4bb1-a7c5-12d98cd9d544.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/32fcd339-363a-4bb1-a7c5-12d98cd9d544.png",
+        "company_name": "PT ANGKASA PURA LOGISTIK",
+        "company_address": "GAP 1 JL KOTA BARU BANDAR KEMAYORAN BLOK B12 KAV 2 GUNUNG SAHARI",
+        "company_email": "aplogexim@gmail.com",
+        "company_no_telfon": "085832540248",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0037",
+            "description": null,
+            "slug": "pt-angkasa-pura-logistik",
+            "tag": "pt-angkasa-pura-logistik",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0037",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0037",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0037",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0037",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0037",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0037",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0038",
+        "platform_name": "PT. Samudera Riau Logistik ",
+        "app_url": "https://www.samudera.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/b49dcec6-c3dc-4c51-bcbc-0d2255290aa0.jpeg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/b49dcec6-c3dc-4c51-bcbc-0d2255290aa0.jpeg",
+        "company_name": "PT. Samudera Riau Logistik ",
+        "company_address": "Komplek Pergudangan Angkasa I Blok E No.3 Jl. Sm Amin kel simpang Baru Kecamatan tampan pekanbaru ",
+        "company_email": "abdi.kusuma@samudera.id",
+        "company_no_telfon": "0761-6700261",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0038",
+            "description": null,
+            "slug": "pt-samudera-riau-logistik ",
+            "tag": "pt-samudera-riau-logistik ",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0038",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0038",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0038",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0038",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0038",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0038",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0039",
+        "platform_name": "PT. Angkasa Pura Logistik",
+        "app_url": "https://www.aplog.co/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/6478f9fa-d36d-4500-8a9a-6d71e36d5880.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/6478f9fa-d36d-4500-8a9a-6d71e36d5880.png",
+        "company_name": "PT. Angkasa Pura Logistik",
+        "company_address": "Komplek Pergudangan Bandar Udara Jend Ahmad Yani Semarang",
+        "company_email": "adi.aprilianto@aplog.co",
+        "company_no_telfon": "024-76333434",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0039",
+            "description": null,
+            "slug": "pt-angkasa-pura-logistik",
+            "tag": "pt-angkasa-pura-logistik",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0039",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0039",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0039",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0039",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0039",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0039",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0040",
+        "platform_name": "PT. SOLID UTAMA LOGISTIK",
+        "app_url": "https://www.soulogistik.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/bf3b0e78-6fec-4b62-a21a-d82e9b1aca11.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/bf3b0e78-6fec-4b62-a21a-d82e9b1aca11.png",
+        "company_name": "PT. SOLID UTAMA LOGISTIK",
+        "company_address": "SEMARANG INDAH BLOK D14 NO.21, SEMARANG BARAT, SEMARANG",
+        "company_email": "cso@soulogistik.com",
+        "company_no_telfon": "024-76332669",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0040",
+            "description": null,
+            "slug": "pt-solid-utama-logistik",
+            "tag": "pt-solid-utama-logistik",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0040",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0040",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0040",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0040",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0040",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0041",
+        "platform_name": "PT. PBJ Shipping Lines",
+        "app_url": "https://ptpbjshippinglines.business.site/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/92e30645-2648-4d5c-9bb5-594b8a54f4ed.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/92e30645-2648-4d5c-9bb5-594b8a54f4ed.png",
+        "company_name": "PT. PBJ Shipping Lines",
+        "company_address": "Jl. Bukit Sidomulyo I RT01 RW02 ",
+        "company_email": "pbj.shipping@putrabukitjayaraya.com",
+        "company_no_telfon": "0777 7360615",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0041",
+            "description": null,
+            "slug": "pt-pbj-shipping-lines",
+            "tag": "pt-pbj-shipping-lines",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0041",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0041",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0041",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0041",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0041",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0042",
+        "platform_name": "PT. ALREADI BUGIS MAKASSAR",
+        "app_url": "https://pt-alreadi-bugis-makassar.business.site",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/d66436df-4686-4a94-bf76-12fa03bb6199.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/d66436df-4686-4a94-bf76-12fa03bb6199.png",
+        "company_name": "PT. ALREADI BUGIS MAKASSAR",
+        "company_address": "Jl. Daeng Ramang RT 001 RW 001 Kel. Sudiang Raya Kec. Biringkanaya Kota Makassar",
+        "company_email": "alreadibugis.mks@gmail.com",
+        "company_no_telfon": "081234558892",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0042",
+            "description": null,
+            "slug": "pt-alreadi-bugis-makassar",
+            "tag": "pt-alreadi-bugis-makassar",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0042",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0042",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0042",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0042",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0042",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0043",
+        "platform_name": "PT. PHINISI ARUNG SAMUDERA",
+        "app_url": null,
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/6098cb96-37fe-4610-9eeb-516def0516e4.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/6098cb96-37fe-4610-9eeb-516def0516e4.jpg",
+        "company_name": "PT. PHINISI ARUNG SAMUDERA",
+        "company_address": "Jl. Ahmad Yani Gang Nelayan RT 04 sungai pancang sebatik Utara nunukan",
+        "company_email": "yusrihisahamahendra1821@gmail.com",
+        "company_no_telfon": "082350281817",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0043",
+            "description": null,
+            "slug": "pt-phinisi-arung-samudera",
+            "tag": "pt-phinisi-arung-samudera",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0043",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "D0043",
+                    "categoryserviceId": 12
+                },
+                "categoryservice_label": "Perusahaan Jasa Titipan PJT (Domestik & Internasional)"
+            },
+            {
+                "id": {
+                    "platformId": "D0043",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            },
+            {
+                "id": {
+                    "platformId": "D0043",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0043",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0043",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0044",
+        "platform_name": "PT. OMNIFORTUNE CARGO INDONESIA",
+        "app_url": "https://www.omnifortunecargoindonesia.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/73645eaa-e39d-4bcf-b470-5fd97e32b973.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/73645eaa-e39d-4bcf-b470-5fd97e32b973.jpg",
+        "company_name": "PT. OMNIFORTUNE CARGO INDONESIA",
+        "company_address": "SEMARANG INDAH BLOK E2 NO12",
+        "company_email": "ops101@omnifortunecargo.com",
+        "company_no_telfon": "02476331303",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0044",
+            "description": null,
+            "slug": "pt-omnifortune-cargo-indonesia",
+            "tag": "pt-omnifortune-cargo-indonesia",
+            "updated_at": "2021-12-21 12:53:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0044",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            },
+            {
+                "id": {
+                    "platformId": "D0044",
+                    "categoryserviceId": 12
+                },
+                "categoryservice_label": "Perusahaan Jasa Titipan PJT (Domestik & Internasional)"
+            },
+            {
+                "id": {
+                    "platformId": "D0044",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0044",
+                    "categoryserviceId": 5
+                },
+                "categoryservice_label": "Vessel"
+            },
+            {
+                "id": {
+                    "platformId": "D0044",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0044",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0044",
+                    "categoryserviceId": 14
+                },
+                "categoryservice_label": "Kereta Api Cargo (KAI Logistik)"
+            },
+            {
+                "id": {
+                    "platformId": "D0044",
+                    "categoryserviceId": 6
+                },
+                "categoryservice_label": "Gudang"
+            },
+            {
+                "id": {
+                    "platformId": "D0044",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0045",
+        "platform_name": "SMEsHub Indonesia",
+        "app_url": "https://smeshub.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/7917b571-6d5e-46c9-9afc-151c3dbac28b.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/7917b571-6d5e-46c9-9afc-151c3dbac28b.png",
+        "company_name": "PT SMEsHub Bangun Negeri",
+        "company_address": "Jl. Jagakarsa II No.51, Jagakarsa, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12620",
+        "company_email": "info@smeshub.id",
+        "company_no_telfon": "0812-6079-8266",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0045",
+            "description": null,
+            "slug": "smeshub-indonesia",
+            "tag": "smeshub-indonesia",
+            "updated_at": "2022-04-06 07:19:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0045",
+                    "categoryserviceId": 15
+                },
+                "categoryservice_label": "Marketplace"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0046",
+        "platform_name": "KREASI Jabar",
+        "app_url": "https://kreasijabar.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/ed7cd456-f561-48eb-a355-624e9b7eb806.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/ed7cd456-f561-48eb-a355-624e9b7eb806.png",
+        "company_name": "KREASI Jabar",
+        "company_address": "Jl. Bukit Dago Selatan No.53A, Dago, Kecamatan Coblong, Kota Bandung, Jawa Barat 40135",
+        "company_email": "jabarkanekraf@gmail.com",
+        "company_no_telfon": "+6289519814345 ",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0046",
+            "description": null,
+            "slug": "kreasi-jabar",
+            "tag": "kreasi-jabar",
+            "updated_at": "2022-04-06 07:19:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0046",
+                    "categoryserviceId": 15
+                },
+                "categoryservice_label": "Marketplace"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0047",
+        "platform_name": "Klinik Ekspor Sampit ",
+        "app_url": "http://www.bcsampit.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean Sampit ",
+        "company_address": "Jalan Tjilik Riwut No. 274 Sampit, Kotawaringin Timur, Kalimantan Tengah Kotak Pos 12",
+        "company_email": "mail@beacukaisampit.com",
+        "company_no_telfon": "(0531) 21095 ",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0047",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-sampit ",
+            "tag": "kppbc-tipe-madya-pabean-sampit ",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0047",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0048",
+        "platform_name": "Klinik Ekspor TANJUNG EMAS",
+        "app_url": "https://bctemas.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean TANJUNG EMAS",
+        "company_address": "Jl. Arteri Yos Sudarso No. 17, Semarang",
+        "company_email": "eksporbctemas@gmail.com",
+        "company_no_telfon": "(024) 76631968",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0048",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-tanjung-emas",
+            "tag": "kppbc-tipe-madya-pabean-a-denpasar",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0048",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0049",
+        "platform_name": "BLI KADEk / Klinik Ekspor Bea Cukai Denpasar",
+        "app_url": "https://bcdenpasar.beacukai.go.id/klinik-bc-denpasar/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean A DENPASAR",
+        "company_address": "Jalan Tukad Badung, Renon, Denpasar, Bali 80226",
+        "company_email": "bcdenpasar@customs.go.id",
+        "company_no_telfon": "0361-4723306",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0049",
+            "description": "<p><span style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: Arial; text-decoration-skip-ink: none;\"><b>BLI KADEk</b> adalah Bimbingan Layanan Informasi melalui Klinik Asistensi dan Dukungan Ekspor</span><br></p>",
+            "slug": "kppbc-tipe-madya-pabean-a-denpasar",
+            "tag": "kppbc-tipe-madya-pabean-a-denpasar",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0049",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0050",
+        "platform_name": "UMKM untuk UMKM/Klinik Fasilitas Bea Cukai Denpasar khusus UMKM berorientasi ekspor",
+        "app_url": "https://bcdenpasar.beacukai.go.id/klinik-bc-denpasar/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean A DENPASAR",
+        "company_address": "Jalan Tukad Badung, Renon, Denpasar, Bali 80226",
+        "company_email": "bcdenpasar@customs.go.id",
+        "company_no_telfon": "0361-4723306",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0050",
+            "description": "<p><span style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: Arial; text-decoration-skip-ink: none;\"><b>UMKM untuk UMKM</b>&nbsp; adalah Usaha Mikro Kecil dan Menengah untuk Upaya Meningkatkan Kesejahteraan Masyarakat</span><br></p>",
+            "slug": "kppbc-tipe-madya-pabean-a-denpasar",
+            "tag": "kppbc-tipe-madya-pabean-a-denpasar",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0050",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0051",
+        "platform_name": "Export Assistance",
+        "app_url": "http://bcmakassar.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean B Makassar",
+        "company_address": "Jl. Hatta No. 2, Makassar",
+        "company_email": "bcmakassar@customs.go.id",
+        "company_no_telfon": "08124000212",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0051",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-b-makassar",
+            "tag": "kppbc-tipe-madya-pabean-b-makassar",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0051",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0052",
+        "platform_name": "Makmoe KPPBC TMP C Langsa",
+        "app_url": "https://beacukailangsa.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Langsa",
+        "company_address": "Jl. Cut Nyak Dhien No.16, Gampong Jawa, Langsa Kota, Kota Langsa, Aceh 24416",
+        "company_email": "kppbc.langsa@kemenkeu.go.id",
+        "company_no_telfon": "(0641) 21272",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0052",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-langsa",
+            "tag": "kppbc-tipe-madya-pabean-c-langsa",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0052",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0053",
+        "platform_name": "Daun Simpor (Datang Untuk Asistensi Impor/Ekspor)",
+        "app_url": null,
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Tanjung Pandan",
+        "company_address": "Jl Pelabuhan No.3, Tanjungpandan, Kabupaten Belitung, Kep.Bangka Belitung",
+        "company_email": "pabean.tjq@gmail.com",
+        "company_no_telfon": "0719-21061",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0053",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-tanjung-pandan",
+            "tag": "kppbc-tipe-madya-pabean-c-tanjung-pandan",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0053",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0054",
+        "platform_name": "Forum Sambung Rasa Menuju UMKM Bernai Ekspor Mandiri",
+        "app_url": "https://bccilacap.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Cilacap",
+        "company_address": "JL. Jenderal Sudirman, Klega, Tambakreja, Kec. Cilacap Sel., Kabupaten Cilacap",
+        "company_email": "kip.beacukaicilacap@gmail.com",
+        "company_no_telfon": "(0282) 534126",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0054",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-cilacap",
+            "tag": "kppbc-tipe-madya-pabean-c-cilacap",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0054",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0055",
+        "platform_name": "Coaching Ekspor",
+        "app_url": "http://bcsorong.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Sorong",
+        "company_address": "Jalan A. Yani No.4 Sorong",
+        "company_email": "kppbc.sorong@gmail.com",
+        "company_no_telfon": "(0951) 321612",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0055",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-sorong",
+            "tag": "kppbc-tipe-madya-pabean-c-sorong",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0055",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0056",
+        "platform_name": "National Logistics Ecosystem",
+        "app_url": "https://bckotabaru.net/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Kotabaru",
+        "company_address": "Jl. Pangeran Kesuma Negara No 12 B Kec. Pulau Laut Utara Kel. Kotabaru Hilir Kabupaten Kotabaru Kalimantan Selatan",
+        "company_email": "kppbckotabaru@gmail.com",
+        "company_no_telfon": "081258257525",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0056",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-kotabaru",
+            "tag": "kppbc-tipe-madya-pabean-c-kotabaru",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0056",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0057",
+        "platform_name": "Klinik Ekspor KPPBC TMP C Mataram",
+        "app_url": "https://bcmataram.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Mataram",
+        "company_address": "Jl. Yos SUdarso No. 14, Ampenan Selatan, Ampenan, Mataram, NTB",
+        "company_email": "bc.mataram@gmail.com",
+        "company_no_telfon": "(0370) 633572",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0057",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-mataram",
+            "tag": "kppbc-tipe-madya-pabean-c-banda-aceh",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0057",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0058",
+        "platform_name": "Asistensi dan Promosi Produk Ekspor (Dapoe Ekspor)",
+        "app_url": "http://bcbandaaceh.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Banda Aceh\r\nKPPBC Tipe Madya Pabean C Kuala Tanjung",
+        "company_address": "Jl. Soekarno-Hatta No.3A, Geuceu Meunara, Banda Aceh, Aceh",
+        "company_email": "kppbc.bna@gmail.com",
+        "company_no_telfon": "085161161840",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0058",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-banda-aceh",
+            "tag": "kppbc-tipe-madya-pabean-c-banda-aceh",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0058",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0059",
+        "platform_name": "Bimbingan Teknis Ekspor",
+        "app_url": "http://bckualatanjung.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Banda Aceh\r\nKPPBC Tipe Madya Pabean C Kuala Tanjung",
+        "company_address": "Jalan Access road Inalum Sei Suka, Batu bara",
+        "company_email": "Jalan Access road Inalum Sei Suka, Batu bara\tbckualatanjung@customs.go.id",
+        "company_no_telfon": "(0622) 620383",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0059",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-kuala-tanjung",
+            "tag": "kppbc-tipe-madya-pabean-c-kuala-tanjung",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0059",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0060",
+        "platform_name": "Klinik Ekspor KPPBC TMP B Tanjungpinang",
+        "app_url": "www.saika-bctpi.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean B Tanjung Pinang",
+        "company_address": "KPPBC TMP B Tanjungpinang",
+        "company_email": "bctgpinang.beacukai.go.id",
+        "company_no_telfon": "0771-21460",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0060",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-b-tanjung-pinang",
+            "tag": "kppbc-tipe-madya-pabean-b-tanjung-pinang",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0060",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0061",
+        "platform_name": "Klinik Ekspor KPPBC Tasikmalaya",
+        "app_url": "www.beacukaitasik.com",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Tasikmalaya",
+        "company_address": "bctasikmalaya@gmail.com",
+        "company_email": "bctasikmalaya@gmail.com",
+        "company_no_telfon": "(0265) 330939",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0061",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-tasikmalaya",
+            "tag": "pli-beacukai-tanjung-balai-karimun",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0061",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0062",
+        "platform_name": "Klinik Ekspor PLI Beacukai Tanjung Balai Karimun",
+        "app_url": "http://bctbk.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "PLI Beacukai Tanjung Balai Karimun",
+        "company_address": "kppbctbkoke@gmail.com",
+        "company_email": "kppbctbkoke@gmail.com",
+        "company_no_telfon": "77721040",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0062",
+            "description": null,
+            "slug": "pli-beacukai-tanjung-balai-karimun",
+            "tag": "pli-beacukai-tanjung-balai-karimun",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0062",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0063",
+        "platform_name": "Klinik Ekspor Bea Cukai Gresik",
+        "app_url": "http://bcgresik.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "PLI Beacukai Tanjung Balai Karimun",
+        "company_address": "Jl. Jaksa Agung Suprapto No. 61, Kel. Sidokumpul, Kec. Gresik, Kab. Gresik, Jawa Timur 61111",
+        "company_email": "kpbcgresik@customs.go.id",
+        "company_no_telfon": "313981353",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0063",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-b-gresik",
+            "tag": "kppbc-tipe-madya-pabean-b-gresik",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0063",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0064",
+        "platform_name": "KLInIK Ekspor Bea Cukai Banyuwangi",
+        "app_url": "www.bcbanyuwangi.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Banyuwangi",
+        "company_address": "Jl Raya Situbondo No 37, Ketapang, Banyuwangi",
+        "company_email": "bcbanyuwangi@customs.go.id",
+        "company_no_telfon": "(0333)510177",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0064",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-banyuwangi",
+            "tag": "kppbc-tipe-madya-pabean-c-banyuwangi",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0064",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0065",
+        "platform_name": "Layanan Informasi Ekspor",
+        "app_url": "https://bcmadiun.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Madiun",
+        "company_address": "Jalan Bolodewo No. 1 Kota Madiun",
+        "company_email": "beacukaimadiun@customs.go.id",
+        "company_no_telfon": "(0341) 4622745",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0065",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-madiun",
+            "tag": "kppbc-tipe-madya-cukai-malang",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0065",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0066",
+        "platform_name": "Klinik Ekspor KPPBC TMC Malang",
+        "app_url": "https://bcmalang.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Cukai Malang",
+        "company_address": "Jalan Surabaya No 2, Malang 65145",
+        "company_email": "Jalan Surabaya No 2, Malang 65145\tbcmalang@customs.go.id",
+        "company_no_telfon": "0341 551628",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0066",
+            "description": null,
+            "slug": "kppbc-tipe-madya-cukai-malang",
+            "tag": "kppbc-tipe-madya-cukai-malang",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0066",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0067",
+        "platform_name": "Klinik Ekspor Biak",
+        "app_url": null,
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Biak",
+        "company_address": "Jalan Jenderal Sudirman, Biak, Papua, 98115",
+        "company_email": "bckupang@customs.go.id",
+        "company_no_telfon": "(0380) 8563024",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0067",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-biak",
+            "tag": "kppbc-tipe-madya-pabean-c-biak",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0067",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0068",
+        "platform_name": "Klinik Ekspor KPPBC TMC C Kupang",
+        "app_url": "http://www.bckupang.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Kupang",
+        "company_address": "Jl. M. Praja No. 2, Alak, Kota Kupang, Nusa Tenggara Timur",
+        "company_email": "bckupang@customs.go.id",
+        "company_no_telfon": "(0380) 8563024",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0068",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-kupang",
+            "tag": "kppbc-tipe-madya-pabean-c-kupang",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0068",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0069",
+        "platform_name": "Klinik Ekspor KPPBC TMP C Jayapura",
+        "app_url": "http://bcjayapura.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Jayapura",
+        "company_address": "GKN Jayapura Lt 5, Jalan Ahmad Yani, Jayapura Utara",
+        "company_email": "bcjayapura.customs.go.id",
+        "company_no_telfon": null,
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0069",
+            "description": "<div><b>Tujuan Klinik Ekspor KPPBC Tipe Madya Pabean C Jayapura:</b></div><ol><li>Mendorong Ekspor dengan Klinik Ekspor</li><li>Pelatihan dan pendampingan kepada calon eksportir</li><li>Koordinasi yang intens dengan intansi terkait.</li></ol>",
+            "slug": "kppbc-tipe-madya-pabean-c-jayapura",
+            "tag": "kppbc-tipe-madya-pabean-c-jayapura",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0069",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0070",
+        "platform_name": "Klinik Ekspor dan Customs Visit Company",
+        "app_url": "http://bccirebon.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean C Cirebon",
+        "company_address": "Jalan DR. Wahidin Sudirohusodo No. 43, CIREBON 45112 - JAWA BARAT",
+        "company_email": "Jalan Diponegoro No 23 Kota Kediri",
+        "company_no_telfon": "2312077723",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0070",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-cirebon",
+            "tag": "kppbc-tipe-madya-pabean-c-cirebon",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0070",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0071",
+        "platform_name": "Klinik Ekspor KPPBC TIPE MADYA CUKAI KEDIRI",
+        "app_url": "https://bckediri.beacukai.go.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Cukai Kediri",
+        "company_address": "Jalan Diponegoro No 23 Kota Kediri",
+        "company_email": "plibeacukaikediri@gmail.com",
+        "company_no_telfon": "354681652",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0071",
+            "description": null,
+            "slug": "kppbc-tipe-madya-cukai-kediri",
+            "tag": "kppbc-tipe-madya-cukai-kediri",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0071",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0072",
+        "platform_name": "Tim Agen Fasilitas KPPBC Tipe Madya Pabean B Banjarmasin",
+        "app_url": "https://bcbanjarmasin.beacukai.go.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean B Banjarmasin",
+        "company_address": "Jl. Barito Hilir, Telaga Biru, Kec. Banjarmasin Bar., Kota Banjarmasin, Kalimantan Selatan 70119",
+        "company_email": "kppb.bjm@gmail.com",
+        "company_no_telfon": "0811500830",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0072",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-banjarmasin",
+            "tag": "kppbc-tipe-madya-pabean-c-banjarmasin",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0072",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0073",
+        "platform_name": "Klinik Ekspor KPPBC Tipe Madya Pabean B Palembang",
+        "app_url": null,
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/fc9eca6b-078c-4f80-9518-08524d19b2c4.png",
+        "company_name": "KPPBC Tipe Madya Pabean B Palembang",
+        "company_address": "Jalan Mayor Memet Sastrawirya nomor 360 pelabuhan boom baru palembang",
+        "company_email": "bcpalembang@customs.go.id",
+        "company_no_telfon": "0711 710528",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0073",
+            "description": null,
+            "slug": "kppbc-tipe-madya-pabean-c-palembang",
+            "tag": "kppbc-tipe-madya-pabean-c-palembang",
+            "updated_at": "2022-04-11 03:07:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0073",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0074",
+        "platform_name": "Indonesia Store",
+        "app_url": "https://www.idnstore.tw",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/8c121c0c-8aa7-4b00-8023-cee222af1454.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/8c121c0c-8aa7-4b00-8023-cee222af1454.png",
+        "company_name": "Indonesia Store",
+        "company_address": "Jl. Kebon Sirih No.35, RT.14/RW.2, Kb. Sirih, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10340",
+        "company_email": "han@globalsolutioneco.com",
+        "company_no_telfon": "2129922318",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0074",
+            "description": null,
+            "slug": "pt-solusi-ekosistem-global",
+            "tag": "pt-solusi-ekosistem-global",
+            "updated_at": "2022-04-12 17:05:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0074",
+                    "categoryserviceId": 15
+                },
+                "categoryservice_label": "Marketplace"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0075",
+        "platform_name": "Akana Logistik",
+        "app_url": "Akana.logistik@gmail.com",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-cd10be7e-ea92-4cc8-81be-5d2f36d5293b.jpeg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-cd10be7e-ea92-4cc8-81be-5d2f36d5293b.jpeg",
+        "company_name": "Akusara Anaga Logistik",
+        "company_address": "Jalan Semarang Indah Blok B8 No 19",
+        "company_email": "Akana.logistik@gmail.com",
+        "company_no_telfon": "087859498888",
+        "is_platform": 0,
+        "code_province": "33",
+        "code_regency": "3374",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0075",
+            "description": "<p>Layanan Logistik</p>",
+            "slug": "akana-logistik",
+            "tag": "akana-logistik",
+            "updated_at": "2023-02-24 13:15:16"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0075",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0075",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0076",
+        "platform_name": "APHIC",
+        "app_url": "aph.co.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-7c302386-15b9-42de-8231-7cac92ccbdca.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-7c302386-15b9-42de-8231-7cac92ccbdca.png",
+        "company_name": "Angkasa Pura Hotel Inflight Catering",
+        "company_address": null,
+        "company_email": "maya.cheirina@aph.co.id",
+        "company_no_telfon": null,
+        "is_platform": 0,
+        "code_province": "51",
+        "code_regency": "5103",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0076",
+            "description": "<p style=\"margin-bottom: 15px; font-size: 16px; line-height: 1.8; color: rgb(102, 102, 102); font-family: &quot;PT Sans&quot;, sans-serif; text-align: justify;\">Angkasa Pura Hotel Inflight Catering atau yang lebih akrab disebut dengan APHIC adalah salah satu unit bisnis dari Angkasa Pura Hotels (APH) yang merupakan anak perusahaan dari PT Angkasa Pura I (Persero) yang mengelola 13 bandara bagian Tengah dan Timur Indonesia. APHIC sebagai penyedia jasa Inflight Catering telah dikenal baik dalam menyajikan ragam pilihan makanan asli Indonesia dan hidangan internasional yang berkualitas tinggi juga menggugah selera. Selain itu, APHIC&nbsp;<em>concern</em>&nbsp;terhadap&nbsp;<em>higienitas</em>&nbsp;baik dalam proses memasak sampai dengan makanan tersaji dihadapan anda.</p><p style=\"margin-bottom: 15px; font-size: 16px; line-height: 1.8; color: rgb(102, 102, 102); font-family: &quot;PT Sans&quot;, sans-serif; text-align: justify;\">Sebuah penerbangan bagi beberapa orang sudah menjadi bagian dari rutinitas. Seperti yang kita tahu selama penerbangan, kita berada di ketinggian yang menyebabkan indera perasa atau pengecap kita menjadi kurang sensitif terhadap rasa dari hidangan yang disajikan selama penerbangan berlangsung. Untuk itu maskapai berlomba-lomba menyajikan hidangan terbaik untuk memuaskan selera makan konsumennya di atas pesawat. Sehingga mereka merangkul usaha jasa boga yang berpengalaman dibidang&nbsp;<em>inflight catering</em>&nbsp;karena jasa catering di atas pesawat tidaklah sembarangan. Bidang ini cukup rumit dan membutuhkan serangkaian keahlian yang harus dinyatakan dengan sederet sertifikasi. Angkasa Pura Hotel Inflight Catering hadir menjawab kebutuhan akan makanan dengan citarasa istimewa dan bersertifikat halal serta memenuhi standar HCCP (<em>Hazard Analysis and Critical Control Points</em>).</p><p style=\"margin-bottom: 15px; font-size: 16px; line-height: 1.8; color: rgb(102, 102, 102); font-family: &quot;PT Sans&quot;, sans-serif; text-align: justify;\">Angkasa Pura sendiri sudah berkecimpung di bidang&nbsp;<em>inflight catering</em>&nbsp;sejak tahun 2013 dan sudah melayani sejumlah maskapai baik untuk penerbangan reguler maupun&nbsp;<em>charter flights</em>. Selain itu juga melayani&nbsp;<em>in town catering</em>&nbsp;berupa&nbsp;<em>supply bakery</em>&nbsp;ke sejumlah restaurant, hotel, mini market, jasa boga prasmanan untuk&nbsp;<em>luncheon meeting</em>&nbsp;dan juga melayani&nbsp;<em>buffet dinner</em>. Sedangkan untuk penerbangan internasional saat ini APHIC melayani maskapai&nbsp;<strong>Qatar Airways&nbsp;</strong>dan<strong>&nbsp;Rossiya</strong><strong>&nbsp;Airlines</strong><strong>.</strong></p>",
+            "slug": "aphic",
+            "tag": "aphic",
+            "updated_at": "2023-02-27 09:17:45"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0076",
+                    "categoryserviceId": 1
+                },
+                "categoryservice_label": "Lainnya"
+            },
+            {
+                "id": {
+                    "platformId": "D0076",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0077",
+        "platform_name": "Celebes angkasa samudra",
+        "app_url": null,
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d6b93f8f-3fe6-4f54-90cb-30154f98d07a.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d6b93f8f-3fe6-4f54-90cb-30154f98d07a.png",
+        "company_name": "Celebes angkasa samudra",
+        "company_address": "Jl. Sungai saddang baru No. 9A",
+        "company_email": "cas.syafruddin@yahoo.com",
+        "company_no_telfon": "0411-432651",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0077",
+            "description": null,
+            "slug": "Celebes angkasa samudra",
+            "tag": "Celebes angkasa samudra",
+            "updated_at": "2023-02-27 09:17:45"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0077",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0078",
+        "platform_name": "CV Ayudia Arza Mandiri",
+        "app_url": "www.ayudia.co.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d6b93f8f-3fe6-4f54-90cb-30154f98d07a.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d6b93f8f-3fe6-4f54-90cb-30154f98d07a.png",
+        "company_name": "CV Ayudia Arza Mandiri",
+        "company_address": "Gawok RT.001 RW.001, Geneng, Gatak, Sukoharjo, Jawa Tengah - 57557",
+        "company_email": "admin@ayudia.co.id",
+        "company_no_telfon": "0271-3401023",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0078",
+            "description": null,
+            "slug": "CV Ayudia Arza Mandiri",
+            "tag": "CV Ayudia Arza Mandiri",
+            "updated_at": "2023-02-27 09:17:45"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0078",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0079",
+        "platform_name": "CV. Agro Phinisi Indonesia",
+        "app_url": "agrophinisiindonesia.com",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d6b93f8f-3fe6-4f54-90cb-30154f98d07a.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d6b93f8f-3fe6-4f54-90cb-30154f98d07a.png",
+        "company_name": "CV. Agro Phinisi Indonesia",
+        "company_address": "Jl. Durian",
+        "company_email": "Indonesiaagrophinisi@gmail.com",
+        "company_no_telfon": "82347819992",
+        "is_platform": 0,
+        "code_province": null,
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0079",
+            "description": null,
+            "slug": "CV. Agro Phinisi Indonesia",
+            "tag": "CV. Agro Phinisi Indonesia",
+            "updated_at": "2023-02-27 09:17:45"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0079",
+                    "categoryserviceId": 15
+                },
+                "categoryservice_label": "Marketplace"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0081",
+        "platform_name": "Coco Mandar Indonesia",
+        "app_url": "www.cocomandar.com",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-bddd76d7-3f07-4cd4-8ac0-e2de8f5c0a2a.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-bddd76d7-3f07-4cd4-8ac0-e2de8f5c0a2a.png",
+        "company_name": "Coco Mandar Indonesia",
+        "company_address": "Polewali Mandar",
+        "company_email": "cocomandarindo@gmail.com",
+        "company_no_telfon": "085256624024",
+        "is_platform": 0,
+        "code_province": "76",
+        "code_regency": "7604",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0081",
+            "description": "<p>Entitas Logistik</p>",
+            "slug": "coco-mandar-indonesia",
+            "tag": "coco-mandar-indonesia",
+            "updated_at": "2023-02-27 16:23:34"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0081",
+                    "categoryserviceId": 15
+                },
+                "categoryservice_label": "Marketplace"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0082",
+        "platform_name": "ZAF Batam",
+        "app_url": "www.zonaasiaforwarding.com",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d6b93f8f-3fe6-4f54-90cb-30154f98d07a.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d6b93f8f-3fe6-4f54-90cb-30154f98d07a.png",
+        "company_name": "ZAF Batam",
+        "company_address": "Ruko Kintamani Blok D No.3 Teluk Tering-Batam Kota",
+        "company_email": "zonaasiaforwarding@gmail.com",
+        "company_no_telfon": "081372245327",
+        "is_platform": 0,
+        "code_province": "21",
+        "code_regency": "2171",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0082",
+            "description": "<p>Entitas Logistik Trucking</p>",
+            "slug": "zaf-batam",
+            "tag": "zaf-batam",
+            "updated_at": "2023-02-27 16:39:28"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0082",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0083",
+        "platform_name": "TIKI Madiun",
+        "app_url": "WWW.TIKI.ID",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-f34c7afe-5bf6-4b35-8a22-f4cfb2624cca.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-f34c7afe-5bf6-4b35-8a22-f4cfb2624cca.png",
+        "company_name": "TIKI Madiun",
+        "company_address": null,
+        "company_email": "tikimdn@gmail.com",
+        "company_no_telfon": null,
+        "is_platform": 0,
+        "code_province": "35",
+        "code_regency": "3519",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0083",
+            "description": "<p>Entitas Logistik PJT</p>",
+            "slug": "tiki-madiun",
+            "tag": "tiki-madiun",
+            "updated_at": "2023-02-27 16:54:57"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0083",
+                    "categoryserviceId": 12
+                },
+                "categoryservice_label": "Perusahaan Jasa Titipan PJT (Domestik & Internasional)"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0084",
+        "platform_name": "Mutiara Jaya Sukses",
+        "app_url": "herminali@yahoo.co.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d269f1e6-be2e-45d7-8daf-bae786ef1f3e.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d269f1e6-be2e-45d7-8daf-bae786ef1f3e.png",
+        "company_name": "Mutiara Jaya Sukses",
+        "company_address": "PARAMA RESIDENCE @MARINA CITY BLOK G NO. 16 KEL. TANJUNG UNC",
+        "company_email": "herminali@yahoo.co.id",
+        "company_no_telfon": "085274725572",
+        "is_platform": 0,
+        "code_province": "21",
+        "code_regency": "2171",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0084",
+            "description": "<p>Forwarder</p>",
+            "slug": "mutiara-jaya-sukses",
+            "tag": "mutiara-jaya-sukses",
+            "updated_at": "2023-02-27 17:27:42"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0084",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0084",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0084",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0085",
+        "platform_name": "MSA KARGO",
+        "app_url": "http://www.msakargo.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d206c207-2f12-4171-8ecb-058623335c5a.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-d206c207-2f12-4171-8ecb-058623335c5a.png",
+        "company_name": "PT MONANG SIANIPAR ABADI",
+        "company_address": "Jl. DR SAHARDJO NO.90 MENTENG ATAS , SETIABUDI JAKSEL",
+        "company_email": "coki@msakargo.co.id",
+        "company_no_telfon": "55911688",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": "3171",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0085",
+            "description": "<p><span style=\"color: rgb(25, 25, 25); font-family: Verdana; font-size: 13.3333px; text-align: justify;\">Kami menggabungkan strategi modern dan traditional, dengan wawasan kehidupan didalam masyarakat untuk menawarkan layanan yang sederhana, nyaman dan transparan. Kami menciptakan solusi baru dan inovasi berkendara untuk mencapai keunggulan kompetitif dan strategis bagi pelanggan kami.</span><br style=\"margin: 0px; padding: 0px; clear: both; vertical-align: top; color: rgb(25, 25, 25); font-family: Verdana; font-size: 13.3333px; text-align: justify;\"><br style=\"margin: 0px; padding: 0px; clear: both; vertical-align: top; color: rgb(25, 25, 25); font-family: Verdana; font-size: 13.3333px; text-align: justify;\"><span style=\"color: rgb(25, 25, 25); font-family: Verdana; font-size: 13.3333px; text-align: justify;\">Kami menyediakan layanan logistik yang sangat handal dengan tingkat yang kompetitif. Menyediakan layanan logistik berkualitas tinggi dan layanan pelanggan yang memuaskan yang membawa manfaat bagi pelanggan.</span><br></p>",
+            "slug": "msa-kargo",
+            "tag": "msa-kargo",
+            "updated_at": "2023-03-30 11:19:41"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0085",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            },
+            {
+                "id": {
+                    "platformId": "D0085",
+                    "categoryserviceId": 12
+                },
+                "categoryservice_label": "Perusahaan Jasa Titipan PJT (Domestik & Internasional)"
+            },
+            {
+                "id": {
+                    "platformId": "D0085",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0085",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            },
+            {
+                "id": {
+                    "platformId": "D0085",
+                    "categoryserviceId": 1
+                },
+                "categoryservice_label": "Lainnya"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0086",
+        "platform_name": "PT. Intertrans Global Logistics",
+        "app_url": "https://www.ptigl.co.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-2bf24b89-90f5-48ce-a879-3df3a6f434cb.JPG",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-2bf24b89-90f5-48ce-a879-3df3a6f434cb.JPG",
+        "company_name": "PT. Intertrans Global Logistics",
+        "company_address": "Gedung Perkantoran Pulomas satu Gedung 2 Lantai 3 Ruang 10",
+        "company_email": "amd.sugiono@ptigl.co.id",
+        "company_no_telfon": "02122861657",
+        "is_platform": 0,
+        "code_province": "00",
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0086",
+            "description": "<p><span style=\"font-weight: bolder; color: rgb(100, 103, 108); font-family: Barlow, sans-serif; font-size: 16px; text-align: justify;\">PT. INTERTRANS GLOBAL LOGISTICS</span><span style=\"color: rgb(100, 103, 108); font-family: Barlow, sans-serif; font-size: 16px; text-align: justify;\">&nbsp;was established to provide the domestic/international Air Freight, Ocean Freight, Air-Ocean, and ground forwarding service between worldwide countries We also provide a cost effective, seamless, tailor made door - to - door solution incomes in international and domestic all over the places to satisfy all logistic needs.</span><br></p>",
+            "slug": "pt.-intertrans-global-logistics",
+            "tag": "pt.-intertrans-global-logistics",
+            "updated_at": "2023-10-30 15:52:33"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0086",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0086",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0087",
+        "platform_name": "Heritage Bahtera Maritim",
+        "app_url": "https://hbmaritim.co.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-fe25b8cb-ac79-415b-9aed-5888fd4d615c.JPG",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-fe25b8cb-ac79-415b-9aed-5888fd4d615c.JPG",
+        "company_name": "Heritage Bahtera maritim",
+        "company_address": "Jl. Swasembada Barat XI No.97, Kebon Bawang, Tanjung Priok, ",
+        "company_email": "operations@hbmaritim.co.id",
+        "company_no_telfon": "085883403094",
+        "is_platform": 0,
+        "code_province": "00",
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0087",
+            "description": "null",
+            "slug": "heritage-bahtera-maritim",
+            "tag": "heritage-bahtera-maritim",
+            "updated_at": "2023-12-06 08:00:46"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0087",
+                    "categoryserviceId": 15
+                },
+                "categoryservice_label": "Marketplace"
+            },
+            {
+                "id": {
+                    "platformId": "D0087",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            },
+            {
+                "id": {
+                    "platformId": "D0087",
+                    "categoryserviceId": 1
+                },
+                "categoryservice_label": "Lainnya"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0088",
+        "platform_name": "dekra-logistics",
+        "app_url": "https://www.dekra-logistics.com/home/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-241feadd-8336-464a-9de9-0d84e597a2b3.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-241feadd-8336-464a-9de9-0d84e597a2b3.png",
+        "company_name": "PT.Dekra Laras Abadi",
+        "company_address": "Jl.Edam II NO.19 Tanjung Priok Jakarta Utara",
+        "company_email": "ct.tower@dekra-logistics.com",
+        "company_no_telfon": "0214308742",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": "3172",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0088",
+            "description": "<p>Perusahaan PT. Dekra Laras Abadi Bergerak Di Bidang Projeck,&nbsp; Gudang Import LCL, dan Gudang Konsolidator barang Eksport.<br></p>",
+            "slug": "dekra-logistics",
+            "tag": "dekra-logistics",
+            "updated_at": "2023-10-30 15:44:30"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0088",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0089",
+        "platform_name": "PT DAE SHIN TRANSPORTATION",
+        "app_url": "https://dstc.co.kr",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-79daae82-1368-4196-9579-9ae5cb960041.JPG",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-79daae82-1368-4196-9579-9ae5cb960041.JPG",
+        "company_name": "PT DAESHIN TRANSPORTATION",
+        "company_address": "Rukan Artha Gading Niaga Blok G No.19\r\nJl. Boulevard Artha Ga",
+        "company_email": "hopark@dstckor.co.kr",
+        "company_no_telfon": "0214515864 ",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": "3172",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0089",
+            "description": "<h5 class=\"elementor-heading-title elementor-size-default\" style=\"margin-left: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 38px; vertical-align: baseline; font-family: Roboto, sans-serif; font-size: 25px; font-weight: 600; color: rgb(13, 36, 152); letter-spacing: -0.5px;\">Based on years of logistics experience, DSTC will be your best partner in the import and export competition by providing customers with upgraded services and reasonable shipping rates through strategic partnerships with global shipping and international logistics service providers.</h5>",
+            "slug": "pt-dae-shin-transportation",
+            "tag": "pt-dae-shin-transportation",
+            "updated_at": "2023-10-24 16:25:27"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0089",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0089",
+                    "categoryserviceId": 12
+                },
+                "categoryservice_label": "Perusahaan Jasa Titipan PJT (Domestik & Internasional)"
+            },
+            {
+                "id": {
+                    "platformId": "D0089",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0090",
+        "platform_name": "EKSPEDISI888",
+        "app_url": "https://pt-expedisi888-manado.business.site/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-1014351d-b765-4686-991a-1010ecfdbcd8.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-1014351d-b765-4686-991a-1010ecfdbcd8.jpg",
+        "company_name": "CV. EXPEDISI 88 LOGISTIK MANADO",
+        "company_address": "jln politeknik Poligrya Indah Blok F14 kel kairagi dua ",
+        "company_email": "expedisi88_manado@yahoo.com",
+        "company_no_telfon": "082195566288",
+        "is_platform": 0,
+        "code_province": "71",
+        "code_regency": "7171",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0090",
+            "description": "<p>JASA PENGURUSAN TRANSPORTASI</p><p>NIB TERDAFTAR API P</p>",
+            "slug": "ekspedisi888",
+            "tag": "ekspedisi888",
+            "updated_at": "2023-10-24 16:38:17"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0090",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0091",
+        "platform_name": "PT. SOLI DEO GRATIA ",
+        "app_url": "http://www.solideogratia.com",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-4b6d8c95-407c-470b-bc1b-a57b85696bd5.JPG",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-4b6d8c95-407c-470b-bc1b-a57b85696bd5.JPG",
+        "company_name": "PT. SOLI DEO GRATIA",
+        "company_address": "Wisma Gondangdia Lama 2nd floor, Jl. RP. Soeroso, Jakarta ",
+        "company_email": "trucking@solideogratia.com",
+        "company_no_telfon": "02122468282",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": "3171",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0091",
+            "description": "<p>PT. SOLI DEO GRATIA ADALAH PERUSAHAAN FORWARDER DAN EMKL DAN PPJK<br></p>",
+            "slug": "pt.-soli-deo-gratia-",
+            "tag": "pt.-soli-deo-gratia-",
+            "updated_at": "2023-10-30 15:12:33"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0091",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            },
+            {
+                "id": {
+                    "platformId": "D0091",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0091",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0092",
+        "platform_name": "Sarana Prima Logistindo",
+        "app_url": "spl-warehouse.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-8a6e9313-0296-4f2e-b610-fe7dae637602.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-8a6e9313-0296-4f2e-b610-fe7dae637602.jpg",
+        "company_name": "PT Sarana Prima Logistindo",
+        "company_address": "Jl. Gresik Blok A-XI No.9 KBN Marunda Jakarta Utara",
+        "company_email": "info@spl-warehouse.id",
+        "company_no_telfon": "02121483136",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": "3172",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0092",
+            "description": "<p>PT Sarana Prima Logistindo adalah perusahaan yang bergerak di bidang usaha manajemen pergudangan untuk cargo LCL Export (CFS Warehouse),, Distribution Center &amp; Project Cargo.</p>",
+            "slug": "nle",
+            "tag": "nle",
+            "updated_at": "2023-12-06 07:53:54"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0092",
+                    "categoryserviceId": 1
+                },
+                "categoryservice_label": "Lainnya"
+            },
+            {
+                "id": {
+                    "platformId": "D0092",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0093",
+        "platform_name": "PT Tungya Collins Terminal",
+        "app_url": "tungyajakarta.co.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-82c58adc-f043-4504-a291-c6d5bfbc8789.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-82c58adc-f043-4504-a291-c6d5bfbc8789.png",
+        "company_name": "PT Tungya Collins Terminal",
+        "company_address": "-",
+        "company_email": "tungya@tungya.com",
+        "company_no_telfon": "0000000000000",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0093",
+            "description": "<p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 16px; text-align: justify;\">Perusahaan PT. Tungya Collins Terminal dan PT. Tungya Perkasa Freight Forwarding merupakan&nbsp;<span style=\"font-family: var( --e-global-typography-385b156-font-family ), Sans-serif; letter-spacing: var( --e-global-typography-385b156-letter-spacing ); word-spacing: var( --e-global-typography-385b156-word-spacing );\">&nbsp;perusahaan yang bergerak di bidang pernyewaan lahan container (Container Yard), penyewaan gudang (Warehouse) dan pelayanan jasa transportasi (Trucking) dengan fokus bisnis diantaranya adalah Container Depot, CFS \u2013 Export Consolidation Warehouse, Distribution Center, Logistics &amp; Local Distribution, Trucking &amp; Customs Clearance, Sea &amp; Air Freight Forwarding, ISO Tank Depot, Repair &amp; Cleaning Services.</span></p><p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-family: var( --e-global-typography-385b156-font-family ), Sans-serif; letter-spacing: var( --e-global-typography-385b156-letter-spacing ); word-spacing: var( --e-global-typography-385b156-word-spacing );\">Kami berdiri sejak tahun 1993 dengan menempati lahan sekitar 35 Ha dengan lokasi yang cukup strategis yaitu di Jl. Cakung Industri Selatan I ( Jl Raya Rorotan I-Babek TNI) No. 12 RT 008 RW 004&nbsp; Rorotan Cilincing Jakarta Utara DKI Jakarta 14140. Kami memiliki jaringan Global diantaranya adalah Tungya Taiwan, Tungya Shanghai, Tungya Hongkong, Tungya Xiamen, Tungya Jakarta dan Tungya Surabaya.</span></p><p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-family: var( --e-global-typography-385b156-font-family ), Sans-serif; letter-spacing: var( --e-global-typography-385b156-letter-spacing ); word-spacing: var( --e-global-typography-385b156-word-spacing );\">Kami memiliki slogan :</span></p><p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-weight: bolder;\">\u201cOne Company, One Stop, Total Logistics Solutions.\u201d</span></p><p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 16px; text-align: justify;\">Yang artinya kami memliki bisnis transportasi terintegrasi, terminal (CY dan CFS), dan gudang distribusi untuk mencapai solusi total bagi pelanggan kami. Kami juga&nbsp;<span style=\"font-family: var( --e-global-typography-385b156-font-family ), Sans-serif; letter-spacing: var( --e-global-typography-385b156-letter-spacing ); word-spacing: var( --e-global-typography-385b156-word-spacing );\">menyediakan berbagai layanan pendukung, seperti bongkar muat, truk, pergudangan, perbaikan peti kemas, dan konsolidasi, sehingga membangun hubungan bisnis jangka panjang dan stabil dengan mitra bisnis kami&nbsp;</span><span style=\"font-family: var( --e-global-typography-385b156-font-family ), Sans-serif; letter-spacing: var( --e-global-typography-385b156-letter-spacing ); word-spacing: var( --e-global-typography-385b156-word-spacing );\">Jaringan Layanan Seluruh Dunia.</span></p><p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-family: var( --e-global-typography-385b156-font-family ), Sans-serif; letter-spacing: var( --e-global-typography-385b156-letter-spacing ); word-spacing: var( --e-global-typography-385b156-word-spacing );\">Kami selalu berkomitmen untuk menjadi mitra terbaik anda. Ayo mari bergabung dengan kami, kami siap melayani anda dengan sepenuh hati.</span></p>",
+            "slug": "pt-tungya-collins-terminal",
+            "tag": "pt-tungya-collins-terminal",
+            "updated_at": "2023-12-13 15:02:58"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0093",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0094",
+        "platform_name": "PT. Mitsui-Soko Indonesia",
+        "app_url": "https://www.mitsui-soko.co.id",
+        "platform_logo": null,
+        "original_platform_logo": null,
+        "company_name": "PT. Mitsui-Soko Indonesia",
+        "company_address": "JL. Rorotan No.8 , Kawasan Industri Cakung Cilincing , Jakarta Utara 14140 , Indonesia",
+        "company_email": "jmaramis@mitsui-soko.co.id",
+        "company_no_telfon": "021-44850123",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0094",
+            "description": "Mitsui-Soko Indonesia adalah salah satu perusahaan logistik terbesar di Jepang yang mempunyai cabang di lebih dari 30 negara dan berkantor pusat di Tokyo - Jepang, yang mempunyai sistem yang terintegrasi di berbagai negara. Mitsui-Soko Indonesia mendukung pelanggan dalam mengembangkan dan menerapkan strategi logistik optimal mereka dengan sumber daya manusia yang dilatih serta profesional untuk memberikan layanan kualitas Jepang, dengan fasilitas mutakhir yang baru-baru ini diperluas dan ditingkatkan, dan dengan jaringan global yang luas dari Grup MITSUI-SOKO.",
+            "slug": "pt-mitsui-soko",
+            "tag": "pt-mitsui-soko",
+            "updated_at": "2023-12-19 15:02:58"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0094",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0095",
+        "platform_name": "PT KBN Prima Logistik",
+        "app_url": "https://kbnprimalogistik.co.id",
+        "platform_logo": null,
+        "original_platform_logo": null,
+        "company_name": "PT KBN Prima Logistik",
+        "company_address": "Gd. Mawar (KBN Cakung) Jl. Syech Nawawi Al-Bantani, Tg. Priok, Jakarta Utara DKI Jakarta 14140",
+        "company_email": "marketing@kbnprimalogistik.co.id",
+        "company_no_telfon": "02144820301",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0095",
+            "description": "PT. KBN Prima Logistik pada awalnya merupakan Unit Usaha Pelayanan Logistik PT. KBN (Persero), hasil penggabungan Divisi Pergudangan dan Divisi Forwarding. Penggabungan itu dilakukan pada tahun 2003.PT. KBN Prima Logistik didirikan berdasarkan Akta Pendirian Nomor 05 Tanggal 21 Agustus 2019 yang dibuat oleh Notaris Mastuti Betta, SH dan telah disahkan oleh Menteri Hukum dan Hak Asasi Manusia Republik Indonesia, sesuai Surat Keputusan Nomor AHU-0043236.AH.01.01.Tahun 2019, dengan komposisi saham PT. KBN (Persero) 99% dan Koperasi Karyawan PT. KBN (Persero) 1%, dan mulai beroperasi pada Januari 2020.",
+            "slug": "pt-kbn-prima-logistik",
+            "tag": "pt-kbn-prima-logistik",
+            "updated_at": "2023-12-19 15:02:58"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0095",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0096",
+        "platform_name": "PT MULTI BINA PURA INTERNATIONAL",
+        "app_url": "https://mbpi.co.id",
+        "platform_logo": null,
+        "original_platform_logo": null,
+        "company_name": "PT MULTI BINA PURA INTERNATIONAL",
+        "company_address": "Jl. Raya Cakung Cilincing Km. 4 RT002/RW05 Kel. Rorotan Kec. Cilincing Jakarta Utara 14140",
+        "company_email": "allcfs@mbpi.co.id",
+        "company_no_telfon": "0214418402",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0096",
+            "description": "Kami adalah perusahaan jasa yang bergerak di bidang logistik,khususnya depo penyimpanan peti kemas serta pergudangan dengan pengalaman lebih dari 30 tahun. Melalui sistem manajemen terintegrasi, kami menyediakan layanan pergudangan terbaik di kelasnya. Berlokasi di area strategis yang berdekatan dengan pelabuhan, kami menawarkan layanan pergudangan khusus dan bersama yang mengakomodasi berbagai kebutuhan, serta sejumlah layanan yang meningkatkan kinerja rantai pasokan pelanggan.",
+            "slug": "pt-multi-bina-pura-internasional",
+            "tag": "pt-multi-bina-pura-internasional",
+            "updated_at": "2023-12-19 15:02:58"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0096",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0097",
+        "platform_name": "PT. OOCL Logistics",
+        "app_url": "www.oocllogistics.com",
+        "platform_logo": null,
+        "original_platform_logo": null,
+        "company_name": "PT. OOCL Logistics",
+        "company_address": "Wisma BNI 46, 22nd floor, suite 2202, Jl Jendral sudirman Kav 1, tanah abang, Jakarta Pusat",
+        "company_email": "andi.kurniawan@oocllogistics.com",
+        "company_no_telfon": "02130405183",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0097",
+            "description": "OOCL Logistics offers professional expertise to customers in managing and optimizing their global supply chains, ranging from strategic sourcing in Asia to distribution in world-wide markets, with end-to-end visibility.",
+            "slug": "pt-oocl-logistics",
+            "tag": "pt-oocl-logistics",
+            "updated_at": "2023-12-19 15:02:58"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0097",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0098",
+        "platform_name": "PT Masaji Kargosentra Tama",
+        "app_url": "https://www.samudera.id/mkt/en/2/officenetworks",
+        "platform_logo": null,
+        "original_platform_logo": null,
+        "company_name": "PT Masaji Kargosentra Tama",
+        "company_address": "Jalan Raya Cakung No. 15 RT.004 RW.010 Kel. Semper Timur, Cilincing, Jakarta Utara, DKI Jakarta - 14130",
+        "company_email": "marketing.mkt@samudera.id",
+        "company_no_telfon": "02145856330",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0098",
+            "description": "Masaji Kargosentra Tama (MKT) merupakan anak perusahaan Samudera Indonesia. Berdiri sejak 28 Juli 1992, bergerak di bidang layanan pergudangan domestik dan CFS impor maupun ekspor. Sejak tahun 2021 kami telah meningkatkan layanan sebagai badan usaha angkutan\u00a0multimoda. Pengalaman kami membantu kami untuk memahami kebutuhan pelanggan. Kami akan memberi solusi terbaik untuk layanan angkutan multimoda dan supply chain. Pelanggan kami telah mendapatkan manfaat kecepatan layanan, akurasi dan keamanan kargo dalam satu atap, mulai dari kegiatan impor, customs clearance, warehousing, distribusi sampai dengan last\u00a0mile\u00a0delivery.",
+            "slug": "pt-masaji-kargosentra-tama",
+            "tag": "pt-masaji-kargosentra-tama",
+            "updated_at": "2023-12-19 15:02:58"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0098",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0099",
+        "platform_name": "PT. PRASETYA MITRA PERSADA",
+        "app_url": "https://www.prasetya.co.id",
+        "platform_logo": null,
+        "original_platform_logo": null,
+        "company_name": "PT. PRASETYA MITRA PERSADA",
+        "company_address": "Jl. Raya Cakung Cilincing, Jakarta Utara KM.3 Blok E29, \r\nKawasan Berikat Nusantara, samping SPBU KBN Cakung",
+        "company_email": "fransiskaaninda3@gmail.com",
+        "company_no_telfon": "02144835831",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": null,
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0099",
+            "description": "PT. Prasetya Mitra Persada was established in Jakarta, handling dry container storage, reefer container storage, closed warehouses covering an area of 5K M2 and open warehouses covering an area of 7K M2 while the rest are general office container storage facilities. The business currently handled does not only involve container storage & stacking, but also includes warehousing businesses which include General and Consolidated Warehouses. Apart from these two businesses, PT. PRASETYA MITRA PERSADA also handles trucking services.",
+            "slug": "pt-prasetya-mitra-persada",
+            "tag": "pt-prasetya-mitra-persada",
+            "updated_at": "2023-12-19 15:02:58"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0099",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0100",
+        "platform_name": "PT. GATEWAY PRIMA INDONUSA",
+        "app_url": "www.gpindo.co.id",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-6cdd3175-6286-408f-9a01-7025d0b8332f.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-6cdd3175-6286-408f-9a01-7025d0b8332f.png",
+        "company_name": "PT. GATEWAY PRIMA INDONUSA",
+        "company_address": "TAMAN PALEM LESTARI BLOK A11 NO.3-B\r\nCENGKARENG 11730",
+        "company_email": "agency@gpindo.co.id",
+        "company_no_telfon": "02155960533",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": "3173",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0100",
+            "description": "<p><b>INDONESIA FREIGHT FORWARDING SINCE 2000</b></p><p><b>BASED IN JAKARTA, INDONESIA</b></p><p><br></p><p><b>SERVICES</b></p><p><b>1. EXPORT&nbsp;</b></p><p><b>2. IMPORT</b></p><p><b>3. CUSTOMS / PPJK</b></p><p><b>4. TRUCKING&nbsp;</b></p><p><b>5. AGENCIES PARTNER</b></p><p><b><br></b></p><p><b>MORE UPDATES ON WWW.GPINDO.CO.ID</b></p>",
+            "slug": "pt-gateway-prima-indonusa",
+            "tag": "pt-gateway-prima-indonusa",
+            "updated_at": "2024-01-05 13:21:35"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0100",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0100",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0100",
+                    "categoryserviceId": 1
+                },
+                "categoryservice_label": "Lainnya"
+            },
+            {
+                "id": {
+                    "platformId": "D0100",
+                    "categoryserviceId": 16
+                },
+                "categoryservice_label": "Program Ekspor & Impor"
+            },
+            {
+                "id": {
+                    "platformId": "D0100",
+                    "categoryserviceId": 13
+                },
+                "categoryservice_label": "Agen Penerbangan Cargo"
+            },
+            {
+                "id": {
+                    "platformId": "D0100",
+                    "categoryserviceId": 15
+                },
+                "categoryservice_label": "Marketplace"
+            },
+            {
+                "id": {
+                    "platformId": "D0100",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0101",
+        "platform_name": "MULTI BINA PURA INTERNATIONAL",
+        "app_url": "https://mbpi.co.id/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-18a1ea74-5a9b-44b9-9a3d-d4d3d939dfe2.jpg",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-18a1ea74-5a9b-44b9-9a3d-d4d3d939dfe2.jpg",
+        "company_name": "PT MULTI BINA PURA INTERNATIONAL",
+        "company_address": "JL. RAYA CAKUNG CILINCING KM.4 RT 002 RW 05",
+        "company_email": "allcfs@mbpi.co.id",
+        "company_no_telfon": "0214406406",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": "3172",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0101",
+            "description": "<p>Kami menangani penyimpanan peti kemas, transit, pergudangan, yang telah menyediakan layanan selama lebih dari 30 tahun.&nbsp;Didukung dengan tenaga profesional dan teknis berkualifikasi yang berpengalaman dalam pengelolaan kontainer terkomputerisasi di terminal peti kemas dan stacking yard, kami hadir untuk memberikan layanan optimal dan komprehensif bagi setiap pelanggan. Kami memberikan layanan kepada operator utama dan perusahaan penyewaan kontainer, serta bertindak sebagai operator umum untuk keuntungan semua orang.<br></p>",
+            "slug": "multi-bina-pura-international",
+            "tag": "multi-bina-pura-international",
+            "updated_at": "2024-01-05 13:27:23"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0101",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "D0102",
+        "platform_name": "PT KBN Prima Logistik",
+        "app_url": "https://kbnprimalogistik.co.id/",
+        "platform_logo": "https://apisdev-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-23b11375-b15e-4efa-b0d2-f721fd71ccbb.png",
+        "original_platform_logo": "https://apisdev-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-23b11375-b15e-4efa-b0d2-f721fd71ccbb.png",
+        "company_name": "PT KBN Prima Logistik",
+        "company_address": "Jl. Raya Cakung Cilincing, Tg. Priok, Jakarta Utara DKI Jaka",
+        "company_email": "marketing@kbnprimalogistik.co.id",
+        "company_no_telfon": "081281006363",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": "3172",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "D0102",
+            "description": "<p style=\"margin-right: 0cm; margin-left: 0cm; color: rgb(99, 99, 99); font-family: Rubik, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-size: 11pt;\"><span style=\"font-family: Calibri, sans-serif;\"><span style=\"font-size: 12pt;\">PT. KBN Prima Logistik pada awalnya merupakan Unit Usaha Pelayanan Logistik PT. KBN (Persero), hasil penggabungan Divisi Pergudangan dan Divisi Forwarding. Penggabungan itu dilakukan pada tahun 2003. Kedua Divisi tersebut merupakan unit penunjang dari bisnis utama PT. KBN (Persero) yaitu property. Setelah digabung menjadi Unit Usaha Pelayanan Logistik, maka statusnya bukan lagi sebagai unit penunjang tetapi sudah menjadi&nbsp;<em>Strategic Business Unit (SBU)</em>&nbsp;Pelayanan Logistik.</span></span></span></p><p style=\"margin-right: 0cm; margin-left: 0cm; color: rgb(99, 99, 99); font-family: Rubik, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-size: 11pt;\"><span style=\"font-family: Calibri, sans-serif;\"><span style=\"font-size: 12pt;\">Untuk memenuhi ketentuan Peraturan Menteri Perhubungan RI Nomor 49 Tahun 2017 tentang Penyelenggaraan dan Pengusahaan Jasa Transportasi, SBU Pelayanan Logistik diubah menjadi anak usaha dengan nama PT. KBN Prima Logistik, dan bertujuan meningkatkan nilai tambah dan&nbsp;daya saing serta mengoptimalkan pelayanan kepada pelanggan.&nbsp;</span></span></span></p><p style=\"margin-right: 0cm; margin-left: 0cm; color: rgb(99, 99, 99); font-family: Rubik, sans-serif; font-size: 16px; text-align: justify;\"><span style=\"font-size: 11pt;\"><span style=\"font-family: Calibri, sans-serif;\"><span style=\"font-size: 12pt;\">PT. KBN Prima Logistik didirikan berdasarkan Akta Pendirian Nomor 05 Tanggal 21 Agustus 2019 yang dibuat oleh Notaris Mastuti Betta, SH dan telah disahkan oleh Menteri Hukum dan Hak Asasi Manusia Republik Indonesia, sesuai Surat Keputusan Nomor AHU-0043236.AH.01.01.Tahun 2019, dengan komposisi saham PT. KBN (Persero) 99% dan Koperasi Karyawan PT. KBN (Persero) 1%, dan mulai beroperasi pada Januari 2020.</span></span></span></p>",
+            "slug": "pt-kbn-prima-logistik",
+            "tag": "pt-kbn-prima-logistik",
+            "updated_at": "2024-01-05 13:55:58"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "D0102",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            },
+            {
+                "id": {
+                    "platformId": "D0102",
+                    "categoryserviceId": 9
+                },
+                "categoryservice_label": "Forwarder EMKL & EMPU"
+            },
+            {
+                "id": {
+                    "platformId": "D0102",
+                    "categoryserviceId": 11
+                },
+                "categoryservice_label": "Pengusaha Pengurusan Jasa Kepabeanan (PPJK)"
+            },
+            {
+                "id": {
+                    "platformId": "D0102",
+                    "categoryserviceId": 12
+                },
+                "categoryservice_label": "Perusahaan Jasa Titipan PJT (Domestik & Internasional)"
+            }
+        ]
+    },
+    {
+        "platform_id": "PL047",
+        "platform_name": "PT. Permata Maju Abadi",
+        "app_url": "https://www.pmalog.com",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-c7868efe-4b11-4fb4-a9a4-71e555c884d1.JPG",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-c7868efe-4b11-4fb4-a9a4-71e555c884d1.JPG",
+        "company_name": "Permata maju abadi",
+        "company_address": "Jl. Timor Raya 1 Koja, Jakarta",
+        "company_email": "wandi@pmalogs.com",
+        "company_no_telfon": "02144853761",
+        "is_platform": 0,
+        "code_province": "31",
+        "code_regency": "3172",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "PL047",
+            "description": "<p>Kami adalah perusahaan jasa Konsolidator Export</p>",
+            "slug": "pt.-permata-maju-abadi",
+            "tag": "pt.-permata-maju-abadi",
+            "updated_at": "2023-11-08 09:35:29"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "PL047",
+                    "categoryserviceId": 10
+                },
+                "categoryservice_label": "Konsolidator Untuk Ekspor"
+            }
+        ]
+    },
+    {
+        "platform_id": "PL048",
+        "platform_name": "PT. TRANS OTO TECH",
+        "app_url": "https://www.transototech.com/",
+        "platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-faffa8a1-a0e3-4a83-b39f-0d69c44f5635.png",
+        "original_platform_logo": "https://apis-gw.beacukai.go.id/nleportal/nleportalsvc/upload/viewFile/platformlogo-faffa8a1-a0e3-4a83-b39f-0d69c44f5635.png",
+        "company_name": "PT. TRANS OTO TECH",
+        "company_address": "Jl. Tanjung Harapan Gg.85 No.16 Pontianak Timur",
+        "company_email": "arismhrp@transototech.com",
+        "company_no_telfon": "081251438384",
+        "is_platform": 0,
+        "code_province": "61",
+        "code_regency": "6171",
+        "is_show": 1,
+        "profile_platform": {
+            "profile_platform_id": "PL048",
+            "description": "<p>-</p>",
+            "slug": "pt.-trans-oto-tech",
+            "tag": "pt.-trans-oto-tech",
+            "updated_at": "2023-10-24 16:44:56"
+        },
+        "categories_platforms": [
+            {
+                "id": {
+                    "platformId": "PL048",
+                    "categoryserviceId": 3
+                },
+                "categoryservice_label": "Surat Pengeluaran Petikemas (SP2)"
+            },
+            {
+                "id": {
+                    "platformId": "PL048",
+                    "categoryserviceId": 4
+                },
+                "categoryservice_label": "Truk"
+            },
+            {
+                "id": {
+                    "platformId": "PL048",
+                    "categoryserviceId": 8
+                },
+                "categoryservice_label": "Payment"
+            },
+            {
+                "id": {
+                    "platformId": "PL048",
+                    "categoryserviceId": 163
+                },
+                "categoryservice_label": "Gate Pass Ekspor"
+            },
+            {
+                "id": {
+                    "platformId": "PL048",
+                    "categoryserviceId": 182
+                },
+                "categoryservice_label": "Forwarder"
+            }
+        ]
+    }
+]

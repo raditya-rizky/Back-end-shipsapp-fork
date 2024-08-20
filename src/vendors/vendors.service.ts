@@ -1,7 +1,9 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateVendorDto } from './dto/create-vendor.dto';
 import { UpdateVendorDto } from './dto/update-vendor.dto';
 import { PrismaService } from 'src/prisma.service';
+import * as fs from 'fs';
+import * as path from 'path';
 
 @Injectable()
 export class VendorsService {
@@ -11,9 +13,9 @@ export class VendorsService {
     const data = await this.prisma.vendor.create({
       data: {
         nama: createVendorDto.nama,
-        alamat: createVendorDto.alamat,
-        pic: createVendorDto.pic,
-        no_telp: createVendorDto.no_telp,
+        alamat: createVendorDto.alamat || '',
+        pic: createVendorDto.pic || '',
+        no_telp: createVendorDto.no_telp || '',
         email: createVendorDto.email,
         website: createVendorDto.website,
         pricelist_pdf: createVendorDto.pricelist_pdf,
@@ -26,7 +28,6 @@ export class VendorsService {
       data,
     };
   }
-
   findAll() {
     return this.prisma.vendor.findMany({
       include: {
@@ -34,7 +35,12 @@ export class VendorsService {
       },
     });
   }
+// ------------------------------------------------------------------
+  async importFromJsonFile(filename: string): Promise<void> {
+    const filePath = path.join(__dirname, '..', '..', filename);
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
+<<<<<<< Updated upstream
   findOne(id: string) {
     return this.prisma.vendor.findUnique({
       where: {
@@ -44,6 +50,44 @@ export class VendorsService {
         list_pengiriman: true,
       },
     });
+=======
+    for (const item of data) {
+      const createPlatformDto: CreateVendorDto = {
+        nama: item.platform_name,
+        alamat: item.company_address,
+        pic: item.platform_logo,
+        no_telp: item.company_no_telfon,
+        email: item.company_email,
+        website: item.app_url,
+      };
+      
+      await this.create(createPlatformDto);
+    }
+  }
+  async deleteByName(nama: string): Promise<void> {
+    const result = await this.prisma.vendor.deleteMany({
+      where: { nama },
+    });
+    if (result.count === 0) {
+      throw new NotFoundException(`Vendor with name ${nama} not found`);
+    }
+  }
+  async deleteFromJsonFile(filename: string): Promise<void> {
+    const filePath = path.join(__dirname, '..', '..', filename);
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+    const namesToDelete = data.map(item => item.platform_name);
+
+    const result = await this.prisma.vendor.deleteMany({
+      where: { nama: { in: namesToDelete } },
+    });
+
+    console.log(`Deleted ${result.count} vendors`);
+  }
+// ----------------------------------------------------------------------
+  findOne(id: number) {
+    return `This action returns a #${id} vendor`;
+>>>>>>> Stashed changes
   }
 
   async update(id: string, updateVendorDto: UpdateVendorDto) {

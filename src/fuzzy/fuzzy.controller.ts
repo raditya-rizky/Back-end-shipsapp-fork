@@ -1,35 +1,35 @@
 import { Body, Controller, Get, Post, Query } from '@nestjs/common';
-import { DeliveryService, ongkir } from './fuzzy.service';
+import { DeliveryService } from './fuzzy.service';
+import {ApiTags } from '@nestjs/swagger';
+import { shippingCost } from './dto/cost-shipping.dto';
 
+
+@ApiTags('Shimpent')
 @Controller('shipping')
 export class DeliveryController {
   constructor(private readonly deliveryService: DeliveryService) {}
-
-  @Get('cost')
-  async getShippingCost(
-    @Query('length') length: string,
-    @Query('width') width: string,
-    @Query('height') height: string,
-    @Query('quantity') quantity: string,
-    @Query() criteria: any,
-  ): Promise<any> {
-    const lengthNum = parseFloat(length);
-    const widthNum = parseFloat(width);
-    const heightNum = parseFloat(height);
-    const quantityNum = parseInt(quantity, 10);
-    const shippingCost = this.deliveryService.getShippingCost(
-      lengthNum,
-      widthNum,
-      heightNum,
-      quantityNum,
-      criteria,
+  @Post('cost')
+  getShippingCost(@Body() shippingcost : shippingCost){
+    const length = parseFloat(shippingcost.length)
+    const width = parseFloat(shippingcost.width)
+    const height = parseFloat(shippingcost.height)
+    const quantity = parseInt(shippingcost.quantity, 10)
+    const provinsi_awal = shippingcost.provinsi_awal
+    const kabupaten_awal = shippingcost.kabupaten_awal
+    const provinsi_tujuan = shippingcost.provinsi_tujuan
+    const kabupaten_tujuan = shippingcost.kabupaten_tujuan
+    const ShippingCost = this.deliveryService.getShippingCost(
+      length,
+      width,
+      height,
+      quantity,
+      provinsi_awal,
+      provinsi_tujuan,
+      kabupaten_awal,
+      kabupaten_tujuan
     );
-    const companies = this.deliveryService.selectDeliveryCompany(criteria)[0];
-    const terpilih = companies.company.list_pengiriman;
-    return {
-      shippingCost,
-      companies,
-      terpilih,
-    };
+    const companies = this.deliveryService.selectDeliveryCompany(provinsi_awal,kabupaten_awal,provinsi_tujuan,kabupaten_tujuan,quantity)[0];
+    const terpilih = companies.company.list_pengiriman; 
+    return {ShippingCost,companies,terpilih};
   }
 }

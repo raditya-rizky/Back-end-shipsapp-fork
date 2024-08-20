@@ -11,11 +11,17 @@
 <body>
     <h1>Find the Best Delivery Service</h1>
     <form id="deliveryForm">
-        <label for="tujuan_pengiriman">Tujuan Pengiriman:</label>
-        <input type="text" id="tujuan_pengiriman" name="tujuan_pengiriman" required>
+        <label for="tujuan_pengiriman">kabupaten_awal:</label>
+        <input type="text" id="kabupaten_awal" name="tujuan_pengiriman" required>
         <br>
-        <label for="kota">Kota:</label>
-        <input type="text" id="kota" name="kota" required>
+        <label for="kota">kabupaten_tujuan:</label>
+        <input type="text" id="kabupaten_tujuan" name="kota" required>
+        <br>
+        <label for="tujuan_pengiriman">provinsi_awal</label>
+        <input type="text" id="provinsi_awal" name="tujuan_pengiriman" required>
+        <br>
+        <label for="kota">provinsi_tujuan</label>
+        <input type="text" id="provinsi_tujuan" name="kota" required>
         <br>
         <label for="length">Length (cm):</label>
         <input type="number" id="length" name="length" required><br><br>
@@ -30,7 +36,14 @@
         <input type="number" id="quantity" name="quantity" required><br><br>
         <button type="button" onclick="tujuan()">Submit</button>
     </form>
-
+    <div>
+        <button type="button" onclick="addvendor()">
+            Add Vendors
+        </button>
+        <button type="button" onclick="removevendor()">
+            hapus Vendors
+        </button>
+    </div>
     <form id="vendors">
         <input type="text" name="nama" id="nama" placeholder="Nama" required />
         <input type="text" name="alamat" id="alamat" placeholder="Alamat" required />
@@ -44,25 +57,52 @@
       
     <div id="result"></div>
     <script>
-
+        function addvendor(){
+            $.ajax({
+                url:"http://localhost:3000/vendors/import",
+                type:"POST",
+                data:{},
+                success:function(response){
+                    if(response){
+                        message = "success"
+                    }
+                }
+            })
+        }
+        function removevendor(){
+            $.ajax({
+                url:"http://localhost:3000/vendors/delete",
+                type:"DELETE",
+                data:{},
+                success:function(response){
+                    if(response){
+                        message = "success"
+                    }
+                }
+            })
+        }
         function tujuan() {
             let length = $('#length').val();
             let width = $('#width').val();
             let height = $('#height').val();
             let quantity = $('#quantity').val()
-            let lokasi_awal = $('#tujuan_pengiriman').val();
-            let lokasi_akhir = $('#kota').val();
+            let kabupaten_awal = $('#kabupaten_awal').val();
+            let provinsi_awal = $('#provinsi_awal').val();
+            let kabupaten_tujuan = $('#kabupaten_tujuan').val();
+            let provinsi_tujuan = $('#provinsi_tujuan').val();
 
             $.ajax({
                 url: 'http://localhost:3000/shipping/cost',
-                type: 'GET',
+                type: 'POST',
                 data: {
                     length: length,
                     width: width,
                     height: height,
                     quantity: quantity,
-                    lokasi_awal: lokasi_awal,
-                    lokasi_akhir: lokasi_akhir
+                    kabupaten_awal: kabupaten_awal,
+                    kabupaten_tujuan: kabupaten_tujuan,
+                    provinsi_awal:provinsi_awal,
+                    provinsi_tujuan:provinsi_tujuan
                 },
                 success: function (response) {
                     $('#result').html(`
@@ -73,7 +113,7 @@
           <p>Biaya: ${response.terpilih[0].price}</p>
           <p>Min Berat: ${response.terpilih[0].min_charge}</p>
           <p>Estimasi: ${response.terpilih[0].estimasi_tercepat} - ${response.terpilih[0].estimasi_terlama} ${response.terpilih[0].satuan_estimasi_waktu} </p>
-          <p>Total Biaya: ${response.shippingCost}</p>
+          <p>Total Biaya: ${response.ShippingCost}</p>
           
         `);
                 },
