@@ -77,7 +77,7 @@ export class DeliveryService {
       console.error('Error fetching vendors:', error);
     }
   }
- 
+
 
   selectDeliveryCompany(criteria: any): any {
     // Filter perusahaan berdasarkan kriteria
@@ -96,14 +96,13 @@ export class DeliveryService {
             list_pengiriman: matchingShipments,
           };
         }
-        return null;
       })
-      .filter((company) => company !== null);
+      .filter((company) => company);
 
     if (filteredCompanies.length === 0) {
       return null;
     }
-    
+
     const scoredCompanies = filteredCompanies.map((company) => {
       const minTarifPerKg = Math.min(
         ...company.list_pengiriman.map((shipment) => shipment.price),
@@ -114,7 +113,7 @@ export class DeliveryService {
       const waktu = company.list_pengiriman.map(
         (shipment) => shipment.satuan_estimasi_waktu,
       );
-      
+
       let time;
       if (waktu == 'jam' || waktu == 'Jam') {
         time = [estimasi_tercepat];
