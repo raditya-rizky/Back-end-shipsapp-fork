@@ -9,9 +9,10 @@ import { DeliveryController } from './fuzzy/fuzzy.controller';
 import { VendorsModule } from './vendors/vendors.module';
 import { PengirimanModule } from './pengiriman/pengiriman.module';
 import { PrismaModule } from './prisma.module';
+import { OrderModule } from './order/order.module';
 
 @Module({
-  imports: [VendorsModule, PengirimanModule, PrismaModule],
+  imports: [VendorsModule, PengirimanModule, PrismaModule, OrderModule],
   controllers: [AppController, DeliveryController],
   providers: [
     AppService,

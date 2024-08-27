@@ -9,8 +9,8 @@ generator client {
 }
 
 datasource db {
-  provider  = "postgresql"
-  url       = env("DATABASE_URL")
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
   // directUrl = env("DIRECT_URL")
 }
 
@@ -34,6 +34,17 @@ enum SatuanEstimasiWaktu {
   Tahun
 }
 
+model Order {
+  id               String      @id @default(cuid())
+  pengiriman_id    String
+  pengiriman       Pengiriman? @relation(fields: [pengiriman_id], references: [id])
+  panjang          Float
+  lebar            Float
+  tinggi           Float
+  koli             Int
+  biaya_pengiriman Int
+}
+
 model Pengiriman {
   id                    String              @id @default(cuid())
   provinsi_awal         String
@@ -50,4 +61,5 @@ model Pengiriman {
   jarak_tempuh          String
   Vendor                Vendor?             @relation(fields: [vendorId], references: [id])
   vendorId              String?
+  Order                 Order[]
 }
