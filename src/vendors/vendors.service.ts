@@ -40,17 +40,6 @@ export class VendorsService {
     const filePath = path.join(__dirname, '..', '..', filename);
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-<<<<<<< Updated upstream
-  findOne(id: string) {
-    return this.prisma.vendor.findUnique({
-      where: {
-        id,
-      },
-      include: {
-        list_pengiriman: true,
-      },
-    });
-=======
     for (const item of data) {
       const createPlatformDto: CreateVendorDto = {
         nama: item.platform_name,
@@ -85,9 +74,8 @@ export class VendorsService {
     console.log(`Deleted ${result.count} vendors`);
   }
 // ----------------------------------------------------------------------
-  findOne(id: number) {
+  findOne(id: string) {
     return `This action returns a #${id} vendor`;
->>>>>>> Stashed changes
   }
 
   async update(id: string, updateVendorDto: UpdateVendorDto) {

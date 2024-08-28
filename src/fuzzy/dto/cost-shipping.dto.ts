@@ -7,8 +7,8 @@ export const shipment = z.object({
     height: z.string(),
     quantity: z.string(),
     provinsi_awal: z.string().optional(),
-    kabupaten_awal: z.string(),
     provinsi_tujuan: z.string().optional(),
+    kabupaten_awal: z.string(),
     kabupaten_tujuan: z.string()
 }).openapi('shippingCost')
 

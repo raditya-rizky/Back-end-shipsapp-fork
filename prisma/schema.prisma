@@ -40,8 +40,8 @@ model Pengiriman {
   provinsi_tujuan       String
   kabupaten_awal        String
   kabupaten_tujuan      String
-  kecamatan_awal        String
-  kecamatan_tujuan      String
+  kecamatan_awal        String?
+  kecamatan_tujuan      String?
   min_charge            Int
   price                 Int
   satuan_estimasi_waktu SatuanEstimasiWaktu

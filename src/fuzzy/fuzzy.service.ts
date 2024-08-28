@@ -15,8 +15,8 @@ export class DeliveryService {
           list_pengiriman: true,
         },
       });
-      this.companies = vendors; 
-      
+      this.companies = vendors;
+
       // Log the companies property
     } catch (error) {
       console.error('Error fetching vendors:', error);
@@ -24,15 +24,28 @@ export class DeliveryService {
   }
 
 
-  selectDeliveryCompany(provinsi_awal: string, kabupaten_awal: string, provinsi_tujuan: string, kabupaten_tujuan: string, quantity: number): any {
+  selectDeliveryCompany(provinsi_awal: string, provinsi_tujuan: string, kabupaten_awal: string, kabupaten_tujuan: string, quantity: number): any {
     // Filter perusahaan berdasarkan kriteria
     const filteredCompanies = this.companies
       .map((company) => {
         const matchingShipments = company.list_pengiriman.filter(
-          (shipment) =>
-          (shipment.provinsi_awal === provinsi_awal || provinsi_awal === null && shipment.kabupaten_awal === kabupaten_awal) &&
-          (shipment.provinsi_tujuan === provinsi_tujuan || provinsi_tujuan === null && shipment.kabupaten_tujuan === kabupaten_tujuan) &&
-          quantity >= shipment.min_charge
+          (shipment) => {
+            const kabupatenAwalLower = kabupaten_awal?.toLowerCase() || null;
+            const provinsiAwalLower = provinsi_awal?.toLowerCase() || null;
+            const kabupatenTujuanLower = kabupaten_tujuan?.toLowerCase() || null;
+            const provinsiTujuanLower = provinsi_tujuan?.toLowerCase() || null;
+
+            const checkKabupatenAwal = shipment.kabupaten_awal.toLowerCase() === kabupatenAwalLower;
+            const checkProvinsiAwal = shipment.provinsi_awal.toLowerCase() === provinsiAwalLower && kabupatenAwalLower === null;
+
+            const checkKabupatenTujuan = shipment.kabupaten_tujuan.toLowerCase() === kabupatenTujuanLower;
+            const checkProvinsiTujuan = shipment.provinsi_tujuan.toLowerCase() === provinsiTujuanLower && kabupatenTujuanLower === null;
+            return (
+              (checkKabupatenAwal || checkProvinsiAwal) &&
+              (checkKabupatenTujuan || checkProvinsiTujuan) &&
+              quantity >= shipment.min_charge
+            );
+          }
         );
         if (matchingShipments.length > 0) {
           return {
@@ -47,7 +60,7 @@ export class DeliveryService {
     if (filteredCompanies.length === 0) {
       return null;
     }
-   
+
     const scoredCompanies = filteredCompanies.map((company) => {
       const minTarifPerKg = Math.min(
         ...company.list_pengiriman.map((shipment) => shipment.price),
@@ -190,9 +203,10 @@ export class DeliveryService {
     height: number,
     quantity: number,
     provinsi_awal: string,
+    provinsi_tujuan: string,
     kabupaten_awal: string,
     kabupaten_tujuan: string,
-    provinsi_tujuan: string
+
   ): any {
     try {
       const volume = this.calculateVolume(length, width, height, quantity);

@@ -28,7 +28,11 @@ export class PengirimanController {
       await this.pengirimanService.create(createPengirimanDto),
     );
   }
-
+  @Post('import-json')
+  async importDataFromJson() {
+    const result = await this.pengirimanService.createManyFromJson();
+    return result;
+  }
   @Get()
   @ApiOkResponse({ type: GetPengirimanDto })
   async findAll() {

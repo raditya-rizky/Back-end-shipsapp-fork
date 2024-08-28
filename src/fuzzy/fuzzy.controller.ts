@@ -28,7 +28,7 @@ export class DeliveryController {
       kabupaten_awal,
       kabupaten_tujuan
     );
-    const companies = this.deliveryService.selectDeliveryCompany(provinsi_awal,kabupaten_awal,provinsi_tujuan,kabupaten_tujuan,quantity)[0];
+    const companies = this.deliveryService.selectDeliveryCompany(provinsi_awal,provinsi_tujuan,kabupaten_awal,kabupaten_tujuan,quantity)[0];
     const terpilih = companies.company.list_pengiriman; 
     return {ShippingCost,companies,terpilih};
   }

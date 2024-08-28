@@ -53,29 +53,29 @@
         <input type="text" name="website" id="website" placeholder="Website" />
         <input type="file" name="pricelist_pdf" id="pricelist_pdf" placeholder="Pricelist PDF" />
         <button type="button" onclick="vendors()">Submit</button>
-      </form>
-      
+    </form>
+
     <div id="result"></div>
     <script>
-        function addvendor(){
+        function addvendor() {
             $.ajax({
-                url:"http://localhost:3000/vendors/import",
-                type:"POST",
-                data:{},
-                success:function(response){
-                    if(response){
+                url: "http://localhost:3000/pengiriman/import-json",
+                type: "POST",
+                data: {},
+                success: function (response) {
+                    if (response) {
                         message = "success"
                     }
                 }
             })
         }
-        function removevendor(){
+        function removevendor() {
             $.ajax({
-                url:"http://localhost:3000/vendors/delete",
-                type:"DELETE",
-                data:{},
-                success:function(response){
-                    if(response){
+                url: "http://localhost:3000/vendors/delete",
+                type: "DELETE",
+                data: {},
+                success: function (response) {
+                    if (response) {
                         message = "success"
                     }
                 }
@@ -101,18 +101,22 @@
                     quantity: quantity,
                     kabupaten_awal: kabupaten_awal,
                     kabupaten_tujuan: kabupaten_tujuan,
-                    provinsi_awal:provinsi_awal,
-                    provinsi_tujuan:provinsi_tujuan
+                    provinsi_awal: provinsi_awal,
+                    provinsi_tujuan: provinsi_tujuan
                 },
                 success: function (response) {
+                    console.log(response)
                     $('#result').html(`
           <h2>Best Delivery Service:</h2>
           <h1>Perusahaan: ${response.companies.company.nama}</h1>
-          <p>Tujuan Pengiriman: ${response.terpilih[0].provinsi_awal}</p>
-          <p>Kota: ${response.terpilih[0].provinsi_tujuan}</p>
+          <p>Tujuan Pengiriman: ${response.terpilih[0].kabupaten_tujuan}</p>
+          <p>Dari: ${response.terpilih[0].kabupaten_awal}</p>
           <p>Biaya: ${response.terpilih[0].price}</p>
           <p>Min Berat: ${response.terpilih[0].min_charge}</p>
-          <p>Estimasi: ${response.terpilih[0].estimasi_tercepat} - ${response.terpilih[0].estimasi_terlama} ${response.terpilih[0].satuan_estimasi_waktu} </p>
+          <p>Estimasi: ${response.terpilih[0].estimasi_tercepat === response.terpilih[0].estimasi_terlama
+                            ? `${response.terpilih[0].estimasi_terlama} ${response.terpilih[0].satuan_estimasi_waktu}`
+                            : `${response.terpilih[0].estimasi_tercepat} - ${response.terpilih[0].estimasi_terlama} ${response.terpilih[0].satuan_estimasi_waktu}`
+                        }</p> </p>
           <p>Total Biaya: ${response.ShippingCost}</p>
           
         `);
@@ -146,11 +150,11 @@
                     pricelist_pdf: pricelist_pdf
                 },
                 success: function (response) {
-                   if(response){
-                    window.location.reload()
-                   }
+                    if (response) {
+                        window.location.reload()
+                    }
                 },
-               
+
             });
         }
     </script>
