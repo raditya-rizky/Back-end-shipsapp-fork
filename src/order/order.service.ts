@@ -6,7 +6,10 @@ import { MailerService } from '@nestjs-modules/mailer';
 
 @Injectable()
 export class OrderService {
-  constructor(private prisma: PrismaService, private readonly mailService: MailerService) {}
+  constructor(
+    private prisma: PrismaService,
+    private readonly mailService: MailerService,
+  ) {}
 
   async create(createOrderDto: CreateOrderDto) {
     const data = await this.prisma.order.create({
@@ -20,7 +23,7 @@ export class OrderService {
       },
     });
 
-    const isSuccessSendEmail = this.mailService.sendMail({
+    const isSuccessSendEmail = await this.mailService.sendMail({
       from: 'Sarana Logistic <raditya2678@gmail.com>',
       bcc: ['raditya2678@gmail.com'],
       subject: `Pengadaan Barang Baru`,
@@ -33,7 +36,7 @@ export class OrderService {
     });
 
     return {
-      status: 'success',
+      status: isSuccessSendEmail && 'success',
       code: '201',
       data,
     };
@@ -47,8 +50,15 @@ export class OrderService {
     });
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} order`;
+  findOne(id: string) {
+    return this.prisma.order.findUnique({
+      where: {
+        id,
+      },
+      include: {
+        pengiriman: true,
+      },
+    });;
   }
 
   update(id: number, updateOrderDto: UpdateOrderDto) {
