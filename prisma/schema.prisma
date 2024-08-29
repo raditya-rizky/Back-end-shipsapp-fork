@@ -37,7 +37,7 @@ enum SatuanEstimasiWaktu {
 model Order {
   id               String      @id @default(cuid())
   pengiriman_id    String
-  pengiriman       Pengiriman? @relation(fields: [pengiriman_id], references: [id])
+  pengiriman       Pengiriman? @relation(fields: [pengiriman_id], references: [id], onDelete: Cascade)
   panjang          Float
   lebar            Float
   tinggi           Float
@@ -59,7 +59,7 @@ model Pengiriman {
   estimasi_tercepat     Int
   estimasi_terlama      Int
   jarak_tempuh          String
-  Vendor                Vendor?             @relation(fields: [vendorId], references: [id])
+  Vendor                Vendor?             @relation(fields: [vendorId], references: [id], onDelete: Cascade)
   vendorId              String?
   Order                 Order[]
 }

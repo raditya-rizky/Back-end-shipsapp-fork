@@ -38,7 +38,7 @@ export class PengirimanController {
   @Get(':id')
   @ApiOkResponse({ type: GetOnePengirimanDto })
   async findOne(@Param('id') id: string) {
-    return GetOnePengirimanDto.zodSchema.parse(this.pengirimanService.findOne(id));
+    return GetOnePengirimanDto.zodSchema.parse(await this.pengirimanService.findOne(id));
   }
 
   @Patch(':id')

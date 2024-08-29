@@ -1,5 +1,4 @@
 import { createZodDto } from '@wahyubucil/nestjs-zod-openapi'
-import { vendors } from 'src/vendors/dto/vendor.dto'
 import { z } from 'zod'
 
 export const pengiriman = z.object({
