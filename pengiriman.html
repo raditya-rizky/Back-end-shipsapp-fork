@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Pengiriman</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <form id="pengirimanForm">
+        <label for="provinsi_awal">Provinsi Awal:</label>
+        <input type="text" id="provinsi_awal" name="provinsi_awal"  required><br><br>
+
+        <label for="provinsi_tujuan">Provinsi Tujuan:</label>
+        <input type="text" id="provinsi_tujuan" name="provinsi_tujuan"  required><br><br>
+
+        <label for="kabupaten_awal">Kabupaten Awal:</label>
+        <input type="text" id="kabupaten_awal" name="kabupaten_awal"  required><br><br>
+
+        <label for="kabupaten_tujuan">Kabupaten Tujuan:</label>
+        <input type="text" id="kabupaten_tujuan" name="kabupaten_tujuan" required><br><br>
+
+        <label for="kecamatan_awal">Kecamatan Awal:</label>
+        <input type="text" id="kecamatan_awal" name="kecamatan_awal"><br><br>
+
+        <label for="kecamatan_tujuan">Kecamatan Tujuan:</label>
+        <input type="text" id="kecamatan_tujuan" name="kecamatan_tujuan"><br><br>
+
+        <label for="min_charge">Min Charge:</label>
+        <input type="number" id="min_charge" name="min_charge"  required><br><br>
+
+        <label for="Price">Price:</label>
+        <input type="number" id="Price" name="Price"  required><br><br>
+
+        <label for="satuan_estimasi_waktu">Satuan Estimasi Waktu:</label>
+        <input type="text" id="satuan_estimasi_waktu" name="satuan_estimasi_waktu" value="Hari" required><br><br>
+
+        <label for="estimasi_tercepat">Estimasi Tercepat:</label>
+        <input type="number" id="estimasi_tercepat" name="estimasi_tercepat"  required><br><br>
+
+        <label for="estimasi_terlama">Estimasi Terlama:</label>
+        <input type="number" id="estimasi_terlama" name="estimasi_terlama"  required><br><br>
+
+        <label for="vendorid">Vendor ID:</label>
+        <input type="text" id="vendorid" name="vendorid" value="cm0bhaukt00012wcdu7yxcws3" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        $(document).ready(function(){
+            $('#pengirimanForm').on('submit', function(event){
+                event.preventDefault(); // Mencegah submit form secara default
+
+                var formData = {
+                    provinsi_awal: $('#provinsi_awal').val(),
+                    provinsi_tujuan: $('#provinsi_tujuan').val(),
+                    kabupaten_awal: $('#kabupaten_awal').val(),
+                    kabupaten_tujuan: $('#kabupaten_tujuan').val(),
+                    kecamatan_awal: $('#kecamatan_awal').val(),
+                    kecamatan_tujuan: $('#kecamatan_tujuan').val(),
+                    min_charge: parseInt($('#min_charge').val(), 10), // Konversi ke integer
+                    price: parseInt($('#Price').val(), 10), // Konversi ke integer
+                    satuan_estimasi_waktu: $('#satuan_estimasi_waktu').val(),
+                    estimasi_tercepat: parseInt($('#estimasi_tercepat').val(), 10), // Konversi ke integer
+                    estimasi_terlama: parseInt($('#estimasi_terlama').val(), 10), // Konversi ke integer
+                    vendorId: $('#vendorid').val()
+                };
+
+                $.ajax({
+                    url: 'http://localhost:3000/pengiriman', // Ganti URL ini dengan endpoint API Anda
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(formData),
+                    success: function(response) {
+                        if (response && response.message) {
+                            alert('Data berhasil dikirim: ' + response.message);
+                        } else {
+                            alert('Response tidak memiliki pesan.');
+                        }
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.error('Terjadi kesalahan: ', textStatus, errorThrown);
+                        alert('Terjadi kesalahan saat mengirim data.');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

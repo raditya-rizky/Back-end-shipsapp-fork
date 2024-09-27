@@ -1,65 +1,9 @@
 import { Injectable } from '@nestjs/common';
-import axios from 'axios';
 import { PrismaService } from 'src/prisma.service';
-
-@Injectable()
-export class ongkir {
-  private biayaPerKg: number = 4500;
-
-  // Menghitung volume
-  private calculateVolume(
-    length: number,
-    width: number,
-    height: number,
-    quantity: number,
-  ): number {
-    return length * width * height * quantity;
-  }
-
-  // Menghitung berat volumetrik
-  private calculateVolumetricWeight(volume: number): number {
-    return volume / 4000;
-  }
-
-  // Pembulatan ke atas
-  private roundUp(value: number): number {
-    return Math.ceil(value);
-  }
-
-  // Menghitung biaya pengiriman
-  private calculateShippingCost(weight: number): number {
-    return weight * this.biayaPerKg;
-  }
-
-  // Memformat biaya pengiriman dalam format rupiah
-  private formatCurrency(value: number): string {
-    return new Intl.NumberFormat('id-ID', {
-      style: 'currency',
-      currency: 'IDR',
-      minimumFractionDigits: 0,
-    }).format(value);
-  }
-
-  // Fungsi utama untuk menghitung biaya pengiriman
-  getShippingCost(
-    length: number,
-    width: number,
-    height: number,
-    quantity: number,
-  ): string {
-    const volume = this.calculateVolume(length, width, height, quantity);
-    const volumetricWeight = this.calculateVolumetricWeight(volume);
-    const roundedWeight = this.roundUp(volumetricWeight);
-    const shippingCost = this.calculateShippingCost(roundedWeight);
-    return this.formatCurrency(shippingCost);
-  }
-}
 
 @Injectable()
 export class DeliveryService {
   private companies: any[];
-  private readonly weight = 0.4;
-
   constructor(private prisma: PrismaService) {
     this.initialize();
   }
@@ -71,25 +15,47 @@ export class DeliveryService {
           list_pengiriman: true,
         },
       });
-      this.companies = vendors; // Assign the retrieved data to the companies property
-       // Log the companies property
+      this.companies = vendors;
+
+      // Log the companies property
     } catch (error) {
       console.error('Error fetching vendors:', error);
     }
   }
 
-
-  selectDeliveryCompany(criteria: any): any {
+  selectDeliveryCompany(
+    provinsi_awal: string,
+    provinsi_tujuan: string,
+    kabupaten_awal: string,
+    kabupaten_tujuan: string,
+    quantity: number,
+  ): any {
     // Filter perusahaan berdasarkan kriteria
     const filteredCompanies = this.companies
       .map((company) => {
-        const matchingShipments = company.list_pengiriman.filter(
-          (shipment) =>
-            shipment.provinsi_awal ===
-              criteria.lokasi_awal &&
-              shipment.provinsi_tujuan ===
-                criteria.lokasi_akhir,
-        );
+        const matchingShipments = company.list_pengiriman.filter((shipment) => {
+          const kabupatenAwalLower = kabupaten_awal?.toLowerCase() || null;
+          const provinsiAwalLower = provinsi_awal?.toLowerCase() || null;
+          const kabupatenTujuanLower = kabupaten_tujuan?.toLowerCase() || null;
+          const provinsiTujuanLower = provinsi_tujuan?.toLowerCase() || null;
+
+          const checkKabupatenAwal =
+            shipment.kabupaten_awal.toLowerCase() === kabupatenAwalLower;
+          const checkProvinsiAwal =
+            shipment.provinsi_awal.toLowerCase() === provinsiAwalLower &&
+            kabupatenAwalLower === null;
+
+          const checkKabupatenTujuan =
+            shipment.kabupaten_tujuan.toLowerCase() === kabupatenTujuanLower;
+          const checkProvinsiTujuan =
+            shipment.provinsi_tujuan.toLowerCase() === provinsiTujuanLower &&
+            kabupatenTujuanLower === null;
+          return (
+            (checkKabupatenAwal || checkProvinsiAwal) &&
+            (checkKabupatenTujuan || checkProvinsiTujuan) &&
+            quantity >= shipment.min_charge
+          );
+        });
         if (matchingShipments.length > 0) {
           return {
             ...company,
@@ -244,14 +210,22 @@ export class DeliveryService {
     width: number,
     height: number,
     quantity: number,
-    criteria: any,
+    provinsi_awal: string,
+    provinsi_tujuan: string,
+    kabupaten_awal: string,
+    kabupaten_tujuan: string,
   ): any {
     try {
       const volume = this.calculateVolume(length, width, height, quantity);
       const volumetricWeight = this.calculateVolumetricWeight(volume);
       const roundedWeight = this.roundUp(volumetricWeight);
-      const selectedCompany =
-        this.selectDeliveryCompany(criteria)[0].company.list_pengiriman;
+      const selectedCompany = this.selectDeliveryCompany(
+        provinsi_awal,
+        provinsi_tujuan,
+        kabupaten_awal,
+        kabupaten_tujuan,
+        quantity,
+      )[0].company.list_pengiriman;
       if (selectedCompany) {
         const tarifPerKg = selectedCompany[0].price;
         const shippingCost = roundedWeight * tarifPerKg;

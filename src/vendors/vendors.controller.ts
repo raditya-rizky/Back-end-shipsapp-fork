@@ -32,6 +32,15 @@ export class VendorsController {
     return CreateVendorResponseDto.zodSchema.parse(vendor);
   }
 
+  @Post('import')
+  async importFromJson(): Promise<void> {
+    const vendor = await this.vendorsService.importFromJsonFile('/../data-companies.json');
+    
+  }
+  @Delete('delete')
+  async deleteFromJson(): Promise<void> {
+    await this.vendorsService.deleteFromJsonFile('/../data-companies.json');
+  }
   @Get()
   @ApiOkResponse({ type: GetVendorDto })
   async findAll() {

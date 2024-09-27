@@ -7,10 +7,10 @@ export const CreatePengiriman = z
     vendorId: z.string().cuid(),
     provinsi_awal: z.string(),
     kabupaten_awal: z.string(),
-    kecamatan_awal: z.string(),
+    kecamatan_awal: z.string().optional(),
     provinsi_tujuan: z.string(),
     kabupaten_tujuan: z.string(),
-    kecamatan_tujuan: z.string(),
+    kecamatan_tujuan: z.string().optional(),
     min_charge: z.number(),
     price: z.number(),
     satuan_estimasi_waktu: z.enum([

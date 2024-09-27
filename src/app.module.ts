@@ -5,7 +5,7 @@ import { ConfigModule } from '@nestjs/config';
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { DeliveryService, ongkir } from './fuzzy/fuzzy.service';
+import { DeliveryService } from './fuzzy/fuzzy.service';
 import { DeliveryController } from './fuzzy/fuzzy.controller';
 import { VendorsModule } from './vendors/vendors.module';
 import { PengirimanModule } from './pengiriman/pengiriman.module';
@@ -33,7 +33,6 @@ import { MailerModule } from '@nestjs-modules/mailer';
   controllers: [AppController, DeliveryController],
   providers: [
     AppService,
-    ongkir,
     DeliveryService,
     {
       provide: APP_PIPE,
